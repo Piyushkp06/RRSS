@@ -1,0 +1,124 @@
+=======================================================================================================================================
+T20 CRICKET ADVANCED PRESSURE PERFORMANCE ANALYSIS (v4)
+SupeRR Selector Season 2 — High Leverage Overs, Miracle Comebacks, Min 50 Wkts, High SR
+=======================================================================================================================================
+Deliveries Analyzed : 200,999
+Total Matches       : 883
+Bowler Criteria     : >= 40 Matches, MIN 50 WICKETS, >= 400 Balls Bowled (Eligible: 60)
+Batter Criteria     : >= 40 Matches, High SR (Base SR >= 148 OR Press SR >= 150 OR Death SR >= 170) (Eligible: 77)
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+1. OVERALL TOP 10 BATTERS UNDER PRESSURE (CROSS-ROLE)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Rk   Player                 Role          Mtchs  Runs   BaseAvg  BaseSR   PressSR  DeathSR  ChaseSR  HeistR  HiRRR-SR  Score 
+---------------------------------------------------------------------------------------------------------------------------------------
+1    Tim David              Lower Order   112    2168   34.4     176.8    178.5    199.8    182.0    160     176.7     65.4  
+2    Dinesh Karthik         Lower Order   68     1066   28.8     166.8    167.4    185.3    180.0    78      185.0     64.9  
+3    Shashank Singh         Lower Order   54     905    37.7     161.6    169.9    195.4    164.2    143     160.8     59.6  
+4    Rinku Singh            Lower Order   103    1956   36.2     152.2    160.9    191.1    155.0    130     162.3     58.3  
+5    Marcus Stoinis         Middle Order  103    1911   30.3     153.2    158.4    190.5    153.5    257     156.1     57.9  
+6    David Miller           Middle Order  88     1906   36.0     148.9    152.6    175.4    149.9    416     157.7     57.8  
+7    Naman Dhir             Middle Order  51     992    28.3     168.4    182.2    200.6    175.3    90      195.7     57.4  
+8    Tristan Stubbs         Middle Order  78     1619   36.0     149.6    156.5    196.2    144.1    124     156.0     56.4  
+9    Suryakumar Yadav       Middle Order  143    4588   38.2     166.2    168.3    216.3    167.8    73      153.3     56.2  
+10   Nicholas Pooran        Middle Order  118    3095   32.2     156.9    158.1    189.5    159.5    158     161.4     56.0  
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+2. OVERALL TOP 10 BOWLERS UNDER PRESSURE (CROSS-PHASE)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Rk   Player                 Role                   Mtchs  Wkts   BaseEcon  HLEcon   DeathEcon  PPEcon   TopWkts  HLBalls  Score 
+---------------------------------------------------------------------------------------------------------------------------------------
+1    Shaheen Afridi         PP Specialist          48     65     7.63      6.80     7.99       7.32     38       444      67.9  
+2    Akeal Hosein           PP Specialist          80     80     7.51      7.21     7.47       7.83     59       318      66.0  
+3    Mohammad Nawaz         Middle Overs Specialist 54     65     7.04      7.68     5.64       7.87     41       82       65.2  
+4    Matheesha Pathirana    Death Specialist       55     85     7.78      7.80     8.19       8.68     40       361      63.2  
+5    Taskin Ahmed           PP Specialist          46     69     7.63      7.26     8.47       7.06     38       267      62.4  
+6    Jasprit Bumrah         PP Specialist          77     92     6.87      7.10     7.19       6.82     42       530      62.0  
+7    Mitchell Starc         PP Specialist          41     56     9.14      8.57     9.85       9.19     26       385      60.5  
+8    Haris Rauf             PP Specialist          49     80     8.37      8.17     8.70       7.95     37       367      60.1  
+9    Maheesh Theekshana     PP Specialist          99     96     7.56      7.10     8.02       7.70     61       479      59.5  
+10   Jofra Archer           PP Specialist          56     79     8.59      8.40     9.43       8.59     48       481      58.3  
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+3. TOP 10 TOP ORDER BATTERS (Positions 1-3)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  #1 Abhishek Sharma      | Mtchs:136 | Runs:4326  | Avg:33.5 | SR:186.7 | HeistRuns:209 | PP-Chase-SR:186.2 | Score:53.9 
+  #2 Prabhsimran Singh    | Mtchs:64  | Runs:1874  | Avg:30.2 | SR:159.9 | HeistRuns:129 | PP-Chase-SR:156.4 | Score:51.7 
+  #3 Ajinkya Rahane       | Mtchs:61  | Runs:1426  | Avg:27.4 | SR:139.1 | HeistRuns:0   | PP-Chase-SR:140.4 | Score:50.6 
+  #4 Quinton de Kock      | Mtchs:67  | Runs:1901  | Avg:30.2 | SR:150.6 | HeistRuns:149 | PP-Chase-SR:147.2 | Score:50.5 
+  #5 Shubman Gill         | Mtchs:112 | Runs:4045  | Avg:40.9 | SR:149.2 | HeistRuns:196 | PP-Chase-SR:134.3 | Score:50.5 
+  #6 Phil Salt            | Mtchs:87  | Runs:2774  | Avg:36.0 | SR:168.8 | HeistRuns:60  | PP-Chase-SR:174.4 | Score:49.4 
+  #7 Jos Buttler          | Mtchs:126 | Runs:4391  | Avg:40.3 | SR:155.2 | HeistRuns:140 | PP-Chase-SR:155.7 | Score:48.4 
+  #8 Sai Sudharsan        | Mtchs:58  | Runs:2506  | Avg:49.1 | SR:148.6 | HeistRuns:48  | PP-Chase-SR:140.6 | Score:47.9 
+  #9 Sanju Samson         | Mtchs:132 | Runs:3444  | Avg:31.6 | SR:154.3 | HeistRuns:109 | PP-Chase-SR:158.3 | Score:46.3 
+  #10 Virat Kohli          | Mtchs:92  | Runs:3565  | Avg:44.6 | SR:145.2 | HeistRuns:127 | PP-Chase-SR:160.0 | Score:46.1 
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+4. TOP 10 MIDDLE ORDER BATTERS (Positions 4-5)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  #1 Marcus Stoinis       | Mtchs:103 | Runs:1911  | Avg:30.3 | SR:153.2 | Death-SR:190.5 | HeistRuns:257 | Score:57.9 
+  #2 David Miller         | Mtchs:88  | Runs:1906  | Avg:36.0 | SR:148.9 | Death-SR:175.4 | HeistRuns:416 | Score:57.8 
+  #3 Naman Dhir           | Mtchs:51  | Runs:992   | Avg:28.3 | SR:168.4 | Death-SR:200.6 | HeistRuns:90  | Score:57.4 
+  #4 Tristan Stubbs       | Mtchs:78  | Runs:1619  | Avg:36.0 | SR:149.6 | Death-SR:196.2 | HeistRuns:124 | Score:56.4 
+  #5 Suryakumar Yadav     | Mtchs:143 | Runs:4588  | Avg:38.2 | SR:166.2 | Death-SR:216.3 | HeistRuns:73  | Score:56.2 
+  #6 Nicholas Pooran      | Mtchs:118 | Runs:3095  | Avg:32.2 | SR:156.9 | Death-SR:189.5 | HeistRuns:158 | Score:56.0 
+  #7 Heinrich Klaasen     | Mtchs:76  | Runs:2354  | Avg:39.9 | SR:166.1 | Death-SR:197.2 | HeistRuns:96  | Score:55.7 
+  #8 Liam Livingstone     | Mtchs:74  | Runs:1523  | Avg:27.2 | SR:153.2 | Death-SR:207.4 | HeistRuns:107 | Score:54.5 
+  #9 Shreyas Iyer         | Mtchs:101 | Runs:2852  | Avg:35.6 | SR:152.9 | Death-SR:199.0 | HeistRuns:187 | Score:54.5 
+  #10 Glenn Maxwell        | Mtchs:80  | Runs:1541  | Avg:23.7 | SR:160.9 | Death-SR:201.8 | HeistRuns:145 | Score:54.0 
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+5. TOP 10 LOWER ORDER / FINISHERS (Positions 6-7)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  #1 Tim David            | Mtchs:112 | Runs:2168  | Avg:34.4 | SR:176.8 | Death-SR:199.8 | HeistRuns:160 | Score:65.4 
+  #2 Dinesh Karthik       | Mtchs:68  | Runs:1066  | Avg:28.8 | SR:166.8 | Death-SR:185.3 | HeistRuns:78  | Score:64.9 
+  #3 Shashank Singh       | Mtchs:54  | Runs:905   | Avg:37.7 | SR:161.6 | Death-SR:195.4 | HeistRuns:143 | Score:59.6 
+  #4 Rinku Singh          | Mtchs:103 | Runs:1956  | Avg:36.2 | SR:152.2 | Death-SR:191.1 | HeistRuns:130 | Score:58.3 
+  #5 Andre Russell        | Mtchs:68  | Runs:1248  | Avg:27.7 | SR:170.3 | Death-SR:186.6 | HeistRuns:47  | Score:51.5 
+  #6 Jitesh Sharma        | Mtchs:88  | Runs:1387  | Avg:23.5 | SR:155.0 | Death-SR:184.9 | HeistRuns:113 | Score:49.9 
+  #7 Rahul Tewatia        | Mtchs:76  | Runs:779   | Avg:24.3 | SR:148.7 | Death-SR:172.3 | HeistRuns:244 | Score:48.8 
+  #8 Mahendra Singh Dhoni | Mtchs:58  | Runs:690   | Avg:28.8 | SR:149.0 | Death-SR:175.1 | HeistRuns:51  | Score:47.3 
+  #9 Ramandeep Singh      | Mtchs:49  | Runs:441   | Avg:22.1 | SR:153.1 | Death-SR:185.3 | HeistRuns:13  | Score:46.6 
+  #10 Nitish Reddy         | Mtchs:56  | Runs:1010  | Avg:28.9 | SR:150.3 | Death-SR:189.6 | HeistRuns:58  | Score:45.9 
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+6. TOP 10 POWERPLAY BOWLERS (>=35% PP Deliveries)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  #1 Shaheen Afridi       | Mtchs:48  | Wkts:65  | PP-Econ:7.32  | HL-Econ:6.80  | TopWkts:38  | Score:67.9 
+  #2 Akeal Hosein         | Mtchs:80  | Wkts:80  | PP-Econ:7.83  | HL-Econ:7.21  | TopWkts:59  | Score:66.0 
+  #3 Taskin Ahmed         | Mtchs:46  | Wkts:69  | PP-Econ:7.06  | HL-Econ:7.26  | TopWkts:38  | Score:62.4 
+  #4 Jasprit Bumrah       | Mtchs:77  | Wkts:92  | PP-Econ:6.82  | HL-Econ:7.10  | TopWkts:42  | Score:62.0 
+  #5 Mitchell Starc       | Mtchs:41  | Wkts:56  | PP-Econ:9.19  | HL-Econ:8.57  | TopWkts:26  | Score:60.5 
+  #6 Haris Rauf           | Mtchs:49  | Wkts:80  | PP-Econ:7.95  | HL-Econ:8.17  | TopWkts:37  | Score:60.1 
+  #7 Maheesh Theekshana   | Mtchs:99  | Wkts:96  | PP-Econ:7.70  | HL-Econ:7.10  | TopWkts:61  | Score:59.5 
+  #8 Jofra Archer         | Mtchs:56  | Wkts:79  | PP-Econ:8.59  | HL-Econ:8.40  | TopWkts:48  | Score:58.3 
+  #9 Mahedi Hasan         | Mtchs:42  | Wkts:52  | PP-Econ:6.60  | HL-Econ:7.07  | TopWkts:39  | Score:58.3 
+  #10 Arshdeep Singh       | Mtchs:153 | Wkts:201 | PP-Econ:8.23  | HL-Econ:8.58  | TopWkts:119 | Score:55.7 
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+7. TOP 10 MIDDLE OVERS BOWLERS (>=45% Middle Deliveries)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  #1 Akeal Hosein         | Mtchs:80  | Wkts:80  | Mid-Econ:7.20  | Stand-Breaks(30+):20  | Score:66.0 
+  #2 Mohammad Nawaz       | Mtchs:54  | Wkts:65  | Mid-Econ:6.93  | Stand-Breaks(30+):18  | Score:65.2 
+  #3 Matheesha Pathirana  | Mtchs:55  | Wkts:85  | Mid-Econ:7.23  | Stand-Breaks(30+):27  | Score:63.2 
+  #4 Mahedi Hasan         | Mtchs:42  | Wkts:52  | Mid-Econ:6.67  | Stand-Breaks(30+):3   | Score:58.3 
+  #5 Sunil Narine         | Mtchs:68  | Wkts:66  | Mid-Econ:6.67  | Stand-Breaks(30+):21  | Score:57.9 
+  #6 Varun Chakravarthy   | Mtchs:99  | Wkts:136 | Mid-Econ:7.67  | Stand-Breaks(30+):39  | Score:55.4 
+  #7 Axar Patel           | Mtchs:147 | Wkts:126 | Mid-Econ:7.55  | Stand-Breaks(30+):44  | Score:52.9 
+  #8 Wanindu Hasaranga    | Mtchs:91  | Wkts:134 | Mid-Econ:7.66  | Stand-Breaks(30+):45  | Score:52.8 
+  #9 Mohammad Rishad Hossain | Mtchs:50  | Wkts:62  | Mid-Econ:8.21  | Stand-Breaks(30+):19  | Score:51.3 
+  #10 Noor Ahmad           | Mtchs:70  | Wkts:84  | Mid-Econ:7.55  | Stand-Breaks(30+):25  | Score:51.1 
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+8. TOP 10 DEATH OVERS BOWLERS (>=25% Death Deliveries)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  #1 Shaheen Afridi       | Mtchs:48  | Wkts:65  | Death-Econ:7.99  | ExtDeath-Econ:7.27  | HL-Econ:6.80  | Score:67.9 
+  #2 Matheesha Pathirana  | Mtchs:55  | Wkts:85  | Death-Econ:8.19  | ExtDeath-Econ:8.47  | HL-Econ:7.80  | Score:63.2 
+  #3 Taskin Ahmed         | Mtchs:46  | Wkts:69  | Death-Econ:8.47  | ExtDeath-Econ:7.76  | HL-Econ:7.26  | Score:62.4 
+  #4 Jasprit Bumrah       | Mtchs:77  | Wkts:92  | Death-Econ:7.19  | ExtDeath-Econ:7.74  | HL-Econ:7.10  | Score:62.0 
+  #5 Haris Rauf           | Mtchs:49  | Wkts:80  | Death-Econ:8.70  | ExtDeath-Econ:9.12  | HL-Econ:8.17  | Score:60.1 
+  #6 Jofra Archer         | Mtchs:56  | Wkts:79  | Death-Econ:9.43  | ExtDeath-Econ:9.47  | HL-Econ:8.40  | Score:58.3 
+  #7 Nathan Ellis         | Mtchs:43  | Wkts:60  | Death-Econ:8.88  | ExtDeath-Econ:9.30  | HL-Econ:8.43  | Score:58.3 
+  #8 Arshdeep Singh       | Mtchs:153 | Wkts:201 | Death-Econ:9.26  | ExtDeath-Econ:9.74  | HL-Econ:8.58  | Score:55.7 
+  #9 Bhuvneshwar Kumar    | Mtchs:103 | Wkts:117 | Death-Econ:9.57  | ExtDeath-Econ:9.34  | HL-Econ:7.42  | Score:55.1 
+  #10 Mustafizur Rahman    | Mtchs:72  | Wkts:83  | Death-Econ:8.33  | ExtDeath-Econ:8.68  | HL-Econ:8.01  | Score:53.1 

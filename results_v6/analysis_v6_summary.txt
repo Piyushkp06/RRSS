@@ -1,0 +1,65 @@
+=== T20 PRESSURE PERFORMANCE ANALYSIS v6 ===
+Pressure = top 30% leverage deliveries with win prob between 0.1 and 0.9
+Eligible batters: 119 | Eligible bowlers: 101
+
+TOP 10 BATTERS
+ rank          player_name     bat_role  matches_in_xi  balls     sr  press_sr  press_wpa100  press_dot_pct  chase_sr  death_sr  rae100  min_dim  score
+    1     Suryakumar Yadav Middle Order         143.00   2725 166.20    171.66          0.50          32.54    165.63    205.94   24.68    85.71  92.06
+    2        Glenn Maxwell Middle Order          80.00    941 162.17    159.90          0.71          37.15    159.02    189.52   19.13    75.63  85.22
+    3       Dinesh Karthik  Lower Order          68.00    639 166.82    170.74          0.46          34.77    165.32    181.18   10.07    76.13  84.13
+    4 Vaibhav Sooryavanshi    Top Order          35.00    676 223.08    190.71          0.60          38.92    202.61    173.57   62.50    58.32  81.65
+    5          Rinku Singh  Lower Order         103.00   1284 152.02    162.23          0.24          35.61    151.57    187.31    7.70    73.28  81.01
+    6     Yashasvi Jaiswal    Top Order          90.00   1872 155.98    165.36          0.38          36.82    157.32    176.55   12.72    67.39  79.30
+    7          Virat Kohli    Top Order          92.00   2456 145.15    151.29          0.42          31.50    149.12    179.45   -1.14    56.30  76.77
+    8      Abhishek Sharma    Top Order         136.00   2262 186.52    173.00          0.31          37.35    181.75    167.28   43.18    47.31  75.80
+    9        Priyansh Arya    Top Order          35.00    446 189.24    171.43          0.64          35.71    166.47    159.02   36.78    25.55  75.55
+   10     Heinrich Klaasen Middle Order          76.00   1417 166.13    169.49          0.20          31.00    154.61    190.74   21.52    55.88  75.48
+
+TOP 10 BOWLERS
+ rank        player_name             bowler_role  matches_bowled  balls  wkts  econ  press_econ  press_wpa100  death_econ  crunch_econ  rae_per_over  min_dim  score
+    1       Taskin Ahmed           PP Specialist              46   1046    69  7.63        7.51          0.76        8.72         7.77         -0.44    55.45  82.97
+    2         Haris Rauf           PP Specialist              47   1004    79  8.35        8.08          0.42        8.82         8.36         -0.34    73.07  80.16
+    3     Mohammad Nawaz Middle Overs Specialist              52   1005    66  7.04        7.49          0.24        8.06         8.41         -0.55    64.55  78.16
+    4        Abrar Ahmed Middle Overs Specialist              35    764    47  6.57        7.38          0.43        7.89         8.62         -0.80    42.28  75.82
+    5        Tim Southee           PP Specialist              35    809    53  8.05        7.95          0.27        8.79         7.29         -0.42    53.17  75.37
+    6   Mujeeb Ur Rahman           PP Specialist              38    820    49  6.78        7.53          0.28        8.94         7.37         -1.08    65.74  75.33
+    7     Shaheen Afridi           PP Specialist              45    967    63  7.59        7.42          0.09        8.36         7.22         -0.30    52.03  73.62
+    8       Nathan Ellis        Death Specialist              41    904    59  7.83        8.12          0.14        9.01         8.55         -0.76    69.16  72.71
+    9         Axar Patel Middle Overs Specialist             135   2659   126  7.75        7.24          0.39        8.85         8.38         -0.17    52.97  70.92
+   10 Varun Chakravarthy Middle Overs Specialist              94   2111   136  7.77        8.11          0.11        8.65         7.93         -0.22    63.07  70.38
+
+BATTER STABILITY (share of bootstrap resamples in top 10)
+ player_id          player_name  top10_freq  mean_rank  rank_p10  rank_p90
+      1699     Suryakumar Yadav        0.97       2.81      1.00      6.00
+       838        Glenn Maxwell        0.65      12.99      1.00     35.20
+     50284 Vaibhav Sooryavanshi        0.60       9.48      3.00     17.30
+       143       Dinesh Karthik        0.60       9.14      1.00     22.60
+      4708          Rinku Singh        0.53      13.34      2.00     27.20
+      4260     Heinrich Klaasen        0.44      17.05      4.00     37.10
+      6819     Yashasvi Jaiswal        0.43      15.18      4.00     30.10
+     25669        Priyansh Arya        0.39      15.75      6.00     31.70
+      6281      Abhishek Sharma        0.38      15.98      5.00     31.00
+        47          Virat Kohli        0.33      17.43      5.00     32.10
+      3125      Nicholas Pooran        0.30      21.80      4.00     42.10
+      6280          Harry Brook        0.29      25.10      4.00     56.50
+      3647         Shreyas Iyer        0.26      24.75      4.00     53.00
+      3926        Rahul Tewatia        0.26      20.79      5.00     42.60
+      4853       Glenn Phillips        0.23      22.82      6.00     49.60
+
+BOWLER STABILITY
+ player_id         player_name  top10_freq  mean_rank  rank_p10  rank_p90
+      2681        Taskin Ahmed        0.81       6.14      1.00     14.10
+      7364          Haris Rauf        0.76       8.70      1.00     22.20
+      6450    Mujeeb Ur Rahman        0.61      11.07      2.00     25.00
+      6355      Shaheen Afridi        0.57      13.01      2.00     32.00
+      2490      Mohammad Nawaz        0.54      13.85      2.00     35.00
+       278         Tim Southee        0.53      11.57      2.00     31.00
+      5979         Abrar Ahmed        0.41      13.61      2.00     33.00
+      7920        Nathan Ellis        0.41      18.31      4.00     41.00
+      6256  Varun Chakravarthy        0.35      20.11      4.00     44.00
+      8661 Matheesha Pathirana        0.34      17.34      4.00     32.20
+      3298        Jofra Archer        0.31      22.25      4.90     48.00
+      2876          Axar Patel        0.29      21.14      5.00     42.10
+      6523 Blessing Muzarabani        0.28      23.45      3.00     52.00
+       830      Josh Hazlewood        0.25      24.52      5.00     52.00
+      5837        Mahedi Hasan        0.22      27.12      5.40     55.00

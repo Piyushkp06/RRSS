@@ -1,0 +1,297 @@
+========================================================================================================================
+T20 PRESSURE PERFORMANCE ANALYSIS v2 — FULL SUMMARY
+========================================================================================================================
+Dataset: 200,999 deliveries | 883 matches | IPL 2022-2026 + T20I 2022-2026
+Eligible Batters (after filters): 187
+Eligible Bowlers (after filters): 146
+
+────────────────────────────────────────────────────────────
+ROLE CLASSIFICATION SUMMARY
+────────────────────────────────────────────────────────────
+
+BATTING ROLES (eligible players):
+  Top Order           : 75
+  Middle Order        : 61
+  Lower Order         : 51
+
+BOWLING ROLES (eligible players):
+  PP Specialist            : 59
+  Middle Overs Specialist  : 54
+  All-Phase Bowler         : 20
+  Death Specialist         : 13
+
+────────────────────────────────────────────────────────────
+TOP 5 PLAYERS FILTERED OUT (from previous v1 rankings) WITH REASON:
+────────────────────────────────────────────────────────────
+  Ish Sodhi: avg batting pos=11.2 (>7.5, tail-ender); runs=2 (<200); SR=25.0 (<100); innings=3 (<20)
+  Mitchell Starc: passed all filters (included in rankings)
+  Jasprit Bumrah: avg batting pos=10.4 (>7.5, tail-ender); runs=23 (<200); SR=74.2 (<100); innings=13 (<20)
+  Rashid Khan: avg batting pos=9.6 (>7.5, tail-ender); runs=121 (<200)
+  Sunil Narine: passed all filters (included in rankings)
+
+  Jason Roy: insufficient matches/innings
+  Shakib Al Hasan: insufficient matches/innings
+  Babar Hayat: insufficient matches/innings
+  Ayush Mhatre: insufficient matches/innings
+  Maaz Sadaqat: insufficient matches/innings
+
+========================================================================================================================
+1. TOP ORDER BATTERS (avg batting pos ≤ 3) — Pressure Performance
+========================================================================================================================
+Rk   Player                    Role            Mtchs  Innings  Runs   Avg     SR      P-SR    KO-Avg   OppWt   Score  
+-------------------------------------------------------------------------------------------------------------------
+1    Vaibhav Sooryavanshi      Top Order       35     35       1508   43.1    223.1   235.6   76.7     0.776   60.2   
+2    Tim Robinson              Top Order       26     26       579    24.1    137.9   159.1   22.0     0.859   57.4   
+3    Phil Salt                 Top Order       84     84       2774   36.0    168.8   177.2   72.0     0.819   52.4   
+4    Reeza Hendricks           Top Order       34     34       1223   34.9    146.5   168.8   22.0     0.833   51.1   
+5    Ajinkya Rahane            Top Order       56     56       1426   27.4    139.1   150.0   22.0     0.822   50.3   
+6    Virat Kohli               Top Order       92     92       3565   44.6    145.2   159.2   39.7     0.808   49.4   
+7    Fakhar Zaman              Top Order       47     47       1129   24.0    130.8   146.6   19.0     0.750   47.6   
+8    Pathum Nissanka           Top Order       75     76       2204   30.6    135.0   147.8   9.5      0.831   47.1   
+9    Wriddhiman Saha           Top Order       37     37       823    24.9    124.5   140.5   22.2     0.835   47.0   
+10   Wesley Madhevere          Top Order       30     30       435    15.5    101.9   117.2   22.0     0.800   45.7   
+
+KEY REASONS:
+  #1 Vaibhav Sooryavanshi: PI=1.47, Chase-SR=233.3 vs Base-SR=223.1, Death-SR=290.0, Collapse-Rescue=47 runs. Composite=60.2/100
+  #2 Tim Robinson: PI=2.17, Chase-SR=151.6 vs Base-SR=137.9, Death-SR=163.6, Collapse-Rescue=12 runs. Composite=57.4/100
+  #3 Phil Salt: PI=1.21, Chase-SR=187.0 vs Base-SR=168.8, Death-SR=207.4, Collapse-Rescue=66 runs. Composite=52.4/100
+  #4 Reeza Hendricks: PI=1.19, Chase-SR=170.0 vs Base-SR=146.5, Death-SR=178.0, Collapse-Rescue=94 runs. Composite=51.1/100
+  #5 Ajinkya Rahane: PI=1.26, Chase-SR=139.7 vs Base-SR=139.1, Death-SR=340.0, Collapse-Rescue=0 runs. Composite=50.3/100
+  #6 Virat Kohli: PI=1.01, Chase-SR=160.8 vs Base-SR=145.2, Death-SR=186.1, Collapse-Rescue=93 runs. Composite=49.4/100
+  #7 Fakhar Zaman: PI=1.19, Chase-SR=168.3 vs Base-SR=130.8, Death-SR=192.6, Collapse-Rescue=127 runs. Composite=47.6/100
+  #8 Pathum Nissanka: PI=1.39, Chase-SR=161.5 vs Base-SR=135.0, Death-SR=173.0, Collapse-Rescue=42 runs. Composite=47.1/100
+  #9 Wriddhiman Saha: PI=1.45, Chase-SR=144.8 vs Base-SR=124.5, Death-SR=115.4, Collapse-Rescue=0 runs. Composite=47.0/100
+  #10 Wesley Madhevere: PI=1.41, Chase-SR=115.5 vs Base-SR=101.9, Death-SR=159.6, Collapse-Rescue=76 runs. Composite=45.7/100
+
+========================================================================================================================
+2. MIDDLE ORDER BATTERS (avg batting pos 4-6) — Pressure Performance
+========================================================================================================================
+Rk   Player                    Role            Mtchs  Innings  Runs   Avg     SR      P-SR    KO-Avg   OppWt   Score  
+-------------------------------------------------------------------------------------------------------------------
+1    Cooper Connolly           Middle Order    21     21       567    29.8    156.2   176.1   22.0     0.803   58.9   
+2    Dhruv Jurel               Middle Order    54     54       1207   29.4    151.3   168.4   60.5     0.804   54.7   
+3    Rovman Powell             Middle Order    100    100      2287   27.2    146.7   165.7   22.0     0.876   53.5   
+4    Tristan Stubbs            Middle Order    69     70       1619   36.0    149.6   166.5   22.0     0.865   52.8   
+5    Najibullah Zadran         Middle Order    23     23       423    30.2    138.2   172.9   22.0     0.711   52.7   
+6    David Miller              Middle Order    81     81       1906   36.0    148.9   161.4   104.0    0.853   52.7   
+7    Liam Livingstone          Middle Order    68     68       1523   27.2    153.2   182.5   25.0     0.844   52.4   
+8    Rishabh Pant              Middle Order    73     74       1772   29.5    142.9   178.6   22.0     0.824   51.9   
+9    Naman Dhir                Middle Order    46     46       992    28.3    168.4   180.0   17.7     0.790   51.6   
+10   Shreyas Iyer              Middle Order    98     98       2852   35.6    152.9   171.8   77.0     0.812   51.6   
+
+KEY REASONS:
+  #1 Cooper Connolly: PI=2.12, Chase-SR=163.2 vs Base-SR=156.2, Death-SR=237.8, Collapse-Rescue=102 runs. Composite=58.9/100
+  #2 Dhruv Jurel: PI=1.25, Chase-SR=154.2 vs Base-SR=151.3, Death-SR=172.1, Collapse-Rescue=250 runs. Composite=54.7/100
+  #3 Rovman Powell: PI=1.15, Chase-SR=151.0 vs Base-SR=146.7, Death-SR=188.8, Collapse-Rescue=733 runs. Composite=53.5/100
+  #4 Tristan Stubbs: PI=1.08, Chase-SR=153.6 vs Base-SR=149.6, Death-SR=196.2, Collapse-Rescue=453 runs. Composite=52.8/100
+  #5 Najibullah Zadran: PI=1.85, Chase-SR=145.5 vs Base-SR=138.2, Death-SR=209.6, Collapse-Rescue=72 runs. Composite=52.7/100
+  #6 David Miller: PI=0.97, Chase-SR=158.9 vs Base-SR=148.9, Death-SR=175.4, Collapse-Rescue=340 runs. Composite=52.7/100
+  #7 Liam Livingstone: PI=1.08, Chase-SR=168.3 vs Base-SR=153.2, Death-SR=207.4, Collapse-Rescue=334 runs. Composite=52.4/100
+  #8 Rishabh Pant: PI=1.20, Chase-SR=165.5 vs Base-SR=142.9, Death-SR=200.8, Collapse-Rescue=82 runs. Composite=51.9/100
+  #9 Naman Dhir: PI=1.00, Chase-SR=193.1 vs Base-SR=168.4, Death-SR=200.6, Collapse-Rescue=386 runs. Composite=51.6/100
+  #10 Shreyas Iyer: PI=0.94, Chase-SR=158.5 vs Base-SR=152.9, Death-SR=199.0, Collapse-Rescue=201 runs. Composite=51.6/100
+
+========================================================================================================================
+3. LOWER ORDER / FINISHERS (avg batting pos 7+) — Pressure Performance
+========================================================================================================================
+Rk   Player                    Role            Mtchs  Innings  Runs   Avg     SR      P-SR    KO-Avg   OppWt   Score  
+-------------------------------------------------------------------------------------------------------------------
+1    Ravindra Jadeja           Lower Order     65     65       1293   30.8    135.0   142.6   94.0     0.809   57.1   
+2    Shashank Singh            Lower Order     42     42       905    37.7    161.6   176.6   33.0     0.843   55.7   
+3    Dinesh Karthik            Lower Order     61     61       1066   28.8    166.8   169.0   27.0     0.837   52.7   
+4    Tim David                 Lower Order     98     98       2168   34.4    176.8   178.9   10.8     0.835   52.1   
+5    Jitesh Sharma             Lower Order     73     74       1387   23.5    155.0   170.0   27.7     0.813   51.4   
+6    Rinku Singh               Lower Order     83     84       1956   36.2    152.2   169.9   4.0      0.814   51.4   
+7    Washington Sundar         Lower Order     48     48       890    25.4    139.7   150.5   40.7     0.799   51.0   
+8    Donovan Ferreira          Lower Order     30     30       561    24.4    163.6   173.6   50.0     0.855   50.1   
+9    Axar Patel                Lower Order     105    105      1758   22.0    137.5   140.4   22.0     0.827   49.7   
+10   Ashutosh Sharma           Lower Order     28     29       575    25.0    165.7   169.0   6.5      0.832   49.5   
+
+KEY REASONS:
+  #1 Ravindra Jadeja: PI=1.01, Chase-SR=147.7 vs Base-SR=135.0, Death-SR=150.7, Collapse-Rescue=667 runs. Composite=57.1/100
+  #2 Shashank Singh: PI=1.20, Chase-SR=171.3 vs Base-SR=161.6, Death-SR=195.4, Collapse-Rescue=494 runs. Composite=55.7/100
+  #3 Dinesh Karthik: PI=1.03, Chase-SR=182.5 vs Base-SR=166.8, Death-SR=185.3, Collapse-Rescue=668 runs. Composite=52.7/100
+  #4 Tim David: PI=0.97, Chase-SR=188.2 vs Base-SR=176.8, Death-SR=199.8, Collapse-Rescue=681 runs. Composite=52.1/100
+  #5 Jitesh Sharma: PI=1.21, Chase-SR=167.8 vs Base-SR=155.0, Death-SR=184.9, Collapse-Rescue=347 runs. Composite=51.4/100
+  #6 Rinku Singh: PI=1.00, Chase-SR=168.1 vs Base-SR=152.2, Death-SR=191.1, Collapse-Rescue=733 runs. Composite=51.4/100
+  #7 Washington Sundar: PI=1.04, Chase-SR=158.8 vs Base-SR=139.7, Death-SR=154.7, Collapse-Rescue=341 runs. Composite=51.0/100
+  #8 Donovan Ferreira: PI=1.31, Chase-SR=152.2 vs Base-SR=163.6, Death-SR=204.8, Collapse-Rescue=286 runs. Composite=50.1/100
+  #9 Axar Patel: PI=0.91, Chase-SR=148.1 vs Base-SR=137.5, Death-SR=152.2, Collapse-Rescue=922 runs. Composite=49.7/100
+  #10 Ashutosh Sharma: PI=1.06, Chase-SR=181.2 vs Base-SR=165.7, Death-SR=191.9, Collapse-Rescue=512 runs. Composite=49.5/100
+
+========================================================================================================================
+4. OVERALL TOP 10 BATTERS — Cross-Role Pressure Champions
+========================================================================================================================
+Rk   Player                    Role            Mtchs  Innings  Runs   Avg     SR      P-SR    KO-Avg   OppWt   Score  
+-------------------------------------------------------------------------------------------------------------------
+1    Vaibhav Sooryavanshi      Top Order       35     35       1508   43.1    223.1   235.6   76.7     0.776   60.2   
+2    Cooper Connolly           Middle Order    21     21       567    29.8    156.2   176.1   22.0     0.803   58.9   
+3    Tim Robinson              Top Order       26     26       579    24.1    137.9   159.1   22.0     0.859   57.4   
+4    Ravindra Jadeja           Lower Order     65     65       1293   30.8    135.0   142.6   94.0     0.809   57.1   
+5    Shashank Singh            Lower Order     42     42       905    37.7    161.6   176.6   33.0     0.843   55.7   
+6    Dhruv Jurel               Middle Order    54     54       1207   29.4    151.3   168.4   60.5     0.804   54.7   
+7    Rovman Powell             Middle Order    100    100      2287   27.2    146.7   165.7   22.0     0.876   53.5   
+8    Tristan Stubbs            Middle Order    69     70       1619   36.0    149.6   166.5   22.0     0.865   52.8   
+9    Dinesh Karthik            Lower Order     61     61       1066   28.8    166.8   169.0   27.0     0.837   52.7   
+10   Najibullah Zadran         Middle Order    23     23       423    30.2    138.2   172.9   22.0     0.711   52.7   
+
+KEY REASONS:
+  #1 Vaibhav Sooryavanshi: PI=1.47, Chase-SR=233.3 vs Base-SR=223.1, Death-SR=290.0, Collapse-Rescue=47 runs. Composite=60.2/100
+  #2 Cooper Connolly: PI=2.12, Chase-SR=163.2 vs Base-SR=156.2, Death-SR=237.8, Collapse-Rescue=102 runs. Composite=58.9/100
+  #3 Tim Robinson: PI=2.17, Chase-SR=151.6 vs Base-SR=137.9, Death-SR=163.6, Collapse-Rescue=12 runs. Composite=57.4/100
+  #4 Ravindra Jadeja: PI=1.01, Chase-SR=147.7 vs Base-SR=135.0, Death-SR=150.7, Collapse-Rescue=667 runs. Composite=57.1/100
+  #5 Shashank Singh: PI=1.20, Chase-SR=171.3 vs Base-SR=161.6, Death-SR=195.4, Collapse-Rescue=494 runs. Composite=55.7/100
+  #6 Dhruv Jurel: PI=1.25, Chase-SR=154.2 vs Base-SR=151.3, Death-SR=172.1, Collapse-Rescue=250 runs. Composite=54.7/100
+  #7 Rovman Powell: PI=1.15, Chase-SR=151.0 vs Base-SR=146.7, Death-SR=188.8, Collapse-Rescue=733 runs. Composite=53.5/100
+  #8 Tristan Stubbs: PI=1.08, Chase-SR=153.6 vs Base-SR=149.6, Death-SR=196.2, Collapse-Rescue=453 runs. Composite=52.8/100
+  #9 Dinesh Karthik: PI=1.03, Chase-SR=182.5 vs Base-SR=166.8, Death-SR=185.3, Collapse-Rescue=668 runs. Composite=52.7/100
+  #10 Najibullah Zadran: PI=1.85, Chase-SR=145.5 vs Base-SR=138.2, Death-SR=209.6, Collapse-Rescue=72 runs. Composite=52.7/100
+
+========================================================================================================================
+5. POWERPLAY BOWLERS (pp_balls/total ≥ 35%) — Pressure Performance
+========================================================================================================================
+Rk   Player                    Role                   Mtchs  Wkts   Econ    BaseSR   P-Econ   P-WPO   KO-Econ   PBrks   Score  
+-----------------------------------------------------------------------------------------------------------------------------
+1    Allah Ghazanfar           PP Specialist          22     28     7.90    16.5     7.78     0.43    4.82      4       65.2   
+2    Akeal Hosein              PP Specialist          79     79     7.50    21.6     7.91     0.30    8.25      20      61.8   
+3    Shaheen Afridi            PP Specialist          47     65     7.63    15.3     7.70     0.40    4.56      5       61.6   
+4    Craig Young               All-Phase Bowler       23     36     8.42    13.0     8.93     0.52    8.25      10      60.2   
+5    Tim Southee               PP Specialist          36     55     8.06    15.0     8.05     0.42    8.00      10      60.1   
+6    Haris Rauf                Death Specialist       48     77     8.37    13.3     8.48     0.45    8.49      24      59.6   
+7    Harshit Rana              PP Specialist          44     56     9.26    16.2     9.31     0.40    6.12      16      58.2   
+8    Taskin Ahmed              PP Specialist          46     67     7.61    15.6     7.82     0.39    8.25      10      58.0   
+9    Arshdeep Singh            PP Specialist          147    194    8.62    16.6     8.67     0.37    10.00     44      58.0   
+10   Josh Hazlewood            PP Specialist          65     98     8.10    15.1     8.21     0.40    9.11      18      57.8   
+
+KEY REASONS:
+  #1 Allah Ghazanfar: PI=1.20, Death-Econ=10.27, PP-Econ=7.29, Partnership-Breaks=4, Total-Wkts=28. Composite=65.2/100
+  #2 Akeal Hosein: PI=1.03, Death-Econ=7.47, PP-Econ=7.80, Partnership-Breaks=20, Total-Wkts=79. Composite=61.8/100
+  #3 Shaheen Afridi: PI=1.00, Death-Econ=7.99, PP-Econ=7.32, Partnership-Breaks=5, Total-Wkts=65. Composite=61.6/100
+  #4 Craig Young: PI=1.06, Death-Econ=8.04, PP-Econ=9.85, Partnership-Breaks=10, Total-Wkts=36. Composite=60.2/100
+  #5 Tim Southee: PI=1.06, Death-Econ=8.54, PP-Econ=7.62, Partnership-Breaks=10, Total-Wkts=55. Composite=60.1/100
+  #6 Haris Rauf: PI=0.98, Death-Econ=8.70, PP-Econ=7.94, Partnership-Breaks=24, Total-Wkts=77. Composite=59.6/100
+  #7 Harshit Rana: PI=1.08, Death-Econ=9.69, PP-Econ=9.01, Partnership-Breaks=16, Total-Wkts=56. Composite=58.2/100
+  #8 Taskin Ahmed: PI=0.98, Death-Econ=8.47, PP-Econ=7.06, Partnership-Breaks=10, Total-Wkts=67. Composite=58.0/100
+  #9 Arshdeep Singh: PI=1.02, Death-Econ=9.26, PP-Econ=8.23, Partnership-Breaks=44, Total-Wkts=194. Composite=58.0/100
+  #10 Josh Hazlewood: PI=0.99, Death-Econ=9.44, PP-Econ=7.37, Partnership-Breaks=18, Total-Wkts=98. Composite=57.8/100
+
+========================================================================================================================
+6. MIDDLE OVERS BOWLERS (mid_balls/total ≥ 45%) — Pressure Performance
+========================================================================================================================
+Rk   Player                    Role                   Mtchs  Wkts   Econ    BaseSR   P-Econ   P-WPO   KO-Econ   PBrks   Score  
+-----------------------------------------------------------------------------------------------------------------------------
+1    Abbas Afridi              All-Phase Bowler       25     40     8.00    11.4     8.47     0.60    5.33      18      68.0   
+2    Adam Zampa                Middle Overs Specialist 52     71     8.23    16.2     8.95     0.49    8.25      19      64.9   
+3    Mohammad Rishad Hossain   Middle Overs Specialist 49     61     8.35    16.7     10.11    0.55    8.25      19      64.2   
+4    Matheesha Pathirana       Death Specialist       54     82     7.76    13.9     8.24     0.51    8.88      26      64.1   
+5    Wanindu Hasaranga         Middle Overs Specialist 91     133    7.87    15.3     8.68     0.45    7.88      44      63.6   
+6    Ish Sodhi                 Middle Overs Specialist 59     63     8.40    18.7     9.18     0.49    14.50     20      62.7   
+7    Mohammad Nawaz            Middle Overs Specialist 52     65     7.04    15.5     7.43     0.41    5.57      18      62.4   
+8    Akeal Hosein              PP Specialist          79     79     7.50    21.6     7.91     0.30    8.25      20      61.8   
+9    Varun Chakravarthy        Middle Overs Specialist 95     134    7.77    15.9     8.44     0.40    6.20      38      60.5   
+10   Rashid Khan               Middle Overs Specialist 122    153    7.33    18.0     7.92     0.38    8.72      40      60.2   
+
+KEY REASONS:
+  #1 Abbas Afridi: PI=1.07, Death-Econ=8.41, PP-Econ=8.74, Partnership-Breaks=18, Total-Wkts=40. Composite=68.0/100
+  #2 Adam Zampa: PI=1.21, Death-Econ=8.68, PP-Econ=7.79, Partnership-Breaks=19, Total-Wkts=71. Composite=64.9/100
+  #3 Mohammad Rishad Hossain: PI=1.25, Death-Econ=9.26, PP-Econ=8.30, Partnership-Breaks=19, Total-Wkts=61. Composite=64.2/100
+  #4 Matheesha Pathirana: PI=1.12, Death-Econ=8.14, PP-Econ=8.68, Partnership-Breaks=26, Total-Wkts=82. Composite=64.1/100
+  #5 Wanindu Hasaranga: PI=1.05, Death-Econ=8.24, PP-Econ=9.58, Partnership-Breaks=44, Total-Wkts=133. Composite=63.6/100
+  #6 Ish Sodhi: PI=1.39, Death-Econ=8.63, PP-Econ=8.50, Partnership-Breaks=20, Total-Wkts=63. Composite=62.7/100
+  #7 Mohammad Nawaz: PI=0.99, Death-Econ=5.64, PP-Econ=7.87, Partnership-Breaks=18, Total-Wkts=65. Composite=62.4/100
+  #8 Akeal Hosein: PI=1.03, Death-Econ=7.47, PP-Econ=7.80, Partnership-Breaks=20, Total-Wkts=79. Composite=61.8/100
+  #9 Varun Chakravarthy: PI=0.97, Death-Econ=8.39, PP-Econ=7.80, Partnership-Breaks=38, Total-Wkts=134. Composite=60.5/100
+  #10 Rashid Khan: PI=1.05, Death-Econ=8.23, PP-Econ=7.93, Partnership-Breaks=40, Total-Wkts=153. Composite=60.2/100
+
+========================================================================================================================
+7. DEATH OVERS BOWLERS (death_balls/total ≥ 35%) — Pressure Performance
+========================================================================================================================
+Rk   Player                    Role                   Mtchs  Wkts   Econ    BaseSR   P-Econ   P-WPO   KO-Econ   PBrks   Score  
+-----------------------------------------------------------------------------------------------------------------------------
+1    Matheesha Pathirana       Death Specialist       54     82     7.76    13.9     8.24     0.51    8.88      26      64.1   
+2    Haris Rauf                Death Specialist       48     77     8.37    13.3     8.48     0.45    8.49      24      59.6   
+3    Nathan Ellis              Death Specialist       43     58     7.93    15.9     8.12     0.42    8.25      22      59.2   
+4    Andre Russell             Death Specialist       57     62     10.46   12.3     10.81    0.53    8.25      26      56.8   
+5    Brad Evans                PP Specialist          21     31     8.64    14.3     8.75     0.46    8.25      6       56.7   
+6    Yash Thakur               Death Specialist       27     34     9.74    16.9     9.71     0.42    8.00      10      55.9   
+7    Harshal Patel             Death Specialist       79     96     8.76    17.3     9.24     0.40    6.56      33      55.4   
+8    Obed McCoy                Death Specialist       32     40     8.86    16.2     9.16     0.41    7.41      10      54.4   
+9    Naveen ul Haq             PP Specialist          37     52     8.45    15.3     8.65     0.39    8.75      13      53.6   
+10   Mark Adair                PP Specialist          40     56     8.20    15.2     8.28     0.39    8.25      8       52.7   
+
+KEY REASONS:
+  #1 Matheesha Pathirana: PI=1.12, Death-Econ=8.14, PP-Econ=8.68, Partnership-Breaks=26, Total-Wkts=82. Composite=64.1/100
+  #2 Haris Rauf: PI=0.98, Death-Econ=8.70, PP-Econ=7.94, Partnership-Breaks=24, Total-Wkts=77. Composite=59.6/100
+  #3 Nathan Ellis: PI=1.09, Death-Econ=8.88, PP-Econ=7.39, Partnership-Breaks=22, Total-Wkts=58. Composite=59.2/100
+  #4 Andre Russell: PI=1.05, Death-Econ=10.92, PP-Econ=10.40, Partnership-Breaks=26, Total-Wkts=62. Composite=56.8/100
+  #5 Brad Evans: PI=1.08, Death-Econ=11.28, PP-Econ=6.93, Partnership-Breaks=6, Total-Wkts=31. Composite=56.7/100
+  #6 Yash Thakur: PI=1.18, Death-Econ=10.53, PP-Econ=9.43, Partnership-Breaks=10, Total-Wkts=34. Composite=55.9/100
+  #7 Harshal Patel: PI=1.10, Death-Econ=9.59, PP-Econ=9.61, Partnership-Breaks=33, Total-Wkts=96. Composite=55.4/100
+  #8 Obed McCoy: PI=1.06, Death-Econ=10.08, PP-Econ=7.47, Partnership-Breaks=10, Total-Wkts=40. Composite=54.4/100
+  #9 Naveen ul Haq: PI=0.97, Death-Econ=9.12, PP-Econ=8.09, Partnership-Breaks=13, Total-Wkts=52. Composite=53.6/100
+  #10 Mark Adair: PI=0.98, Death-Econ=10.43, PP-Econ=6.73, Partnership-Breaks=8, Total-Wkts=56. Composite=52.7/100
+
+========================================================================================================================
+8. OVERALL TOP 10 BOWLERS — Cross-Phase Pressure Champions
+========================================================================================================================
+Rk   Player                    Role                   Mtchs  Wkts   Econ    BaseSR   P-Econ   P-WPO   KO-Econ   PBrks   Score  
+-----------------------------------------------------------------------------------------------------------------------------
+1    Abbas Afridi              All-Phase Bowler       25     40     8.00    11.4     8.47     0.60    5.33      18      68.0   
+2    Allah Ghazanfar           PP Specialist          22     28     7.90    16.5     7.78     0.43    4.82      4       65.2   
+3    Adam Zampa                Middle Overs Specialist 52     71     8.23    16.2     8.95     0.49    8.25      19      64.9   
+4    Mohammad Rishad Hossain   Middle Overs Specialist 49     61     8.35    16.7     10.11    0.55    8.25      19      64.2   
+5    Matheesha Pathirana       Death Specialist       54     82     7.76    13.9     8.24     0.51    8.88      26      64.1   
+6    Wanindu Hasaranga         Middle Overs Specialist 91     133    7.87    15.3     8.68     0.45    7.88      44      63.6   
+7    Ish Sodhi                 Middle Overs Specialist 59     63     8.40    18.7     9.18     0.49    14.50     20      62.7   
+8    Mohammad Nawaz            Middle Overs Specialist 52     65     7.04    15.5     7.43     0.41    5.57      18      62.4   
+9    Rasikh Salam              All-Phase Bowler       28     38     9.22    14.3     8.85     0.47    6.36      14      62.0   
+10   Akeal Hosein              PP Specialist          79     79     7.50    21.6     7.91     0.30    8.25      20      61.8   
+
+KEY REASONS:
+  #1 Abbas Afridi: PI=1.07, Death-Econ=8.41, PP-Econ=8.74, Partnership-Breaks=18, Total-Wkts=40. Composite=68.0/100
+  #2 Allah Ghazanfar: PI=1.20, Death-Econ=10.27, PP-Econ=7.29, Partnership-Breaks=4, Total-Wkts=28. Composite=65.2/100
+  #3 Adam Zampa: PI=1.21, Death-Econ=8.68, PP-Econ=7.79, Partnership-Breaks=19, Total-Wkts=71. Composite=64.9/100
+  #4 Mohammad Rishad Hossain: PI=1.25, Death-Econ=9.26, PP-Econ=8.30, Partnership-Breaks=19, Total-Wkts=61. Composite=64.2/100
+  #5 Matheesha Pathirana: PI=1.12, Death-Econ=8.14, PP-Econ=8.68, Partnership-Breaks=26, Total-Wkts=82. Composite=64.1/100
+  #6 Wanindu Hasaranga: PI=1.05, Death-Econ=8.24, PP-Econ=9.58, Partnership-Breaks=44, Total-Wkts=133. Composite=63.6/100
+  #7 Ish Sodhi: PI=1.39, Death-Econ=8.63, PP-Econ=8.50, Partnership-Breaks=20, Total-Wkts=63. Composite=62.7/100
+  #8 Mohammad Nawaz: PI=0.99, Death-Econ=5.64, PP-Econ=7.87, Partnership-Breaks=18, Total-Wkts=65. Composite=62.4/100
+  #9 Rasikh Salam: PI=1.16, Death-Econ=9.20, PP-Econ=8.86, Partnership-Breaks=14, Total-Wkts=38. Composite=62.0/100
+  #10 Akeal Hosein: PI=1.03, Death-Econ=7.47, PP-Econ=7.80, Partnership-Breaks=20, Total-Wkts=79. Composite=61.8/100
+
+========================================================================================================================
+METHODOLOGY NOTES
+========================================================================================================================
+
+Pressure Situations (Batting):
+  - Run Chase Pressure: Inn2, RRR>9, balls_remaining<60
+  - Death Overs: Over 16-20 (any innings)
+  - Collapse: 5+ wickets fallen OR 3 wickets in last 15 balls
+  - High-pressure Chase Finish: Inn2, ≤18 balls remaining, >25 runs needed
+  - Powerplay Chase: Inn2, over 1-6
+  - Match-defining: Inn2, ≤20 runs needed, ≤24 balls left
+  - Knock-out matches
+
+Pressure Situations (Bowling):
+  - Death over defence: over 16+
+  - Powerplay attack: over 1-6
+  - Chase-critical: Inn2, over 15+
+  - Partnership break opportunity: 30+ run partnership
+  - Knock-out matches
+
+Batter Eligibility Filter:
+  - avg_batting_position ≤ 6 (excludes tail-enders)
+  - total_innings_batted ≥ 20
+  - total_runs ≥ 300
+  - baseline_SR ≥ 100
+
+Bowler Eligibility Filter:
+  - wickets ≥ 15
+  - balls_bowled ≥ 400
+  - matches ≥ 20
+
+Opponent Strength Weighting:
+  - IPL teams: CSK(0.95) → PBKS(0.70)
+  - ICC teams: India(1.00) → Associates(0.45-0.55)
+
+Composite Scoring: Weighted normalization (0-100) of 11 batting / 11 bowling metrics.

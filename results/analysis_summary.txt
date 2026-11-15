@@ -1,0 +1,317 @@
+================================================================================
+T20 CRICKET PRESSURE PERFORMANCE ANALYSIS — SUMMARY REPORT
+================================================================================
+
+Total deliveries analyzed : 200,999
+Total matches             : 883
+Eligibility threshold     : 20 matches
+Eligible batters          : 210
+Eligible bowlers          : 158
+Batter pressure balls     : 117,551
+Bowler pressure balls     : 118,825
+
+================================================================================
+TOP 10 BATTERS — PRESSURE PERFORMANCE RANKING
+================================================================================
+Rank  Player                    Matches  Runs     Avg      SR       Press SR   Press Avg  PI_bat   Chase SR   Death SR   Collapse R   Score   
+----------------------------------------------------------------------------------------------------------------------------------
+1     Dinesh Karthik            61       1066     31.4     167.3    180.4      31.5       1.083    186.7      185.0      22           64.44   
+2     George Dockrell           42       677      27.1     136.2    148.7      30.8       1.244    148.5      147.3      18           63.55   
+3     Rassie van der Dussen     20       388      24.2     125.6    154.3      29.1       1.476    128.7      197.2      0            61.09   
+4     Ish Sodhi                 29       149      7.5      112.0    113.7      7.8        1.069    151.6      120.7      20           59.71   
+5     Ravindra Jadeja           65       1293     33.2     135.3    144.3      30.0       0.966    147.0      151.4      1            59.09   
+6     Cooper Connolly           21       567      29.8     157.1    169.9      42.7       1.548    163.3      237.8      0            59.07   
+7     Dhruv Jurel               54       1207     30.9     151.3    167.4      34.1       1.220    156.1      172.1      0            59.07   
+8     Rinku Singh               83       1956     39.1     153.1    171.4      34.4       0.984    167.5      191.9      17           58.75   
+9     Rovman Powell             100      2287     27.9     147.1    169.2      29.5       1.218    152.9      189.9      7            58.66   
+10    Vijay Shankar             26       519      25.9     135.2    154.8      28.6       1.264    143.5      193.5      0            58.56   
+
+================================================================================
+TOP 10 BOWLERS — PRESSURE PERFORMANCE RANKING
+================================================================================
+Rank  Player                    Matches  Wkts   Econ    Avg     SR      Press Econ   Press WPO   PI_bowl   Death Econ   Death WPO   PP Econ   Score   
+--------------------------------------------------------------------------------------------------------------------------------------------
+1     Mohammad Nawaz            52       66     7.05    17.86   15.21   6.88         0.556       1.445     5.64         0.480       7.87      78.92   
+2     Shadab Khan               42       36     7.75    29.86   23.11   7.57         0.360       1.422     6.45         0.364       5.00      76.52   
+3     Abrar Ahmed               35       46     6.57    18.17   16.61   6.17         0.423       1.245     6.66         0.495       8.56      74.49   
+4     Mitchell Starc            39       53     9.17    23.36   15.28   9.13         0.543       1.389     9.85         0.758       9.25      71.29   
+5     Shaheen Afridi            47       65     7.64    19.42   15.25   7.65         0.464       1.177     8.01         0.569       7.34      70.60   
+6     Sunil Narine              67       66     6.76    26.18   23.23   7.09         0.304       1.122     5.94         0.528       8.03      69.55   
+7     Allah Ghazanfar           22       28     7.90    21.68   16.46   7.48         0.421       1.219     10.27        0.610       7.29      68.36   
+8     Haris Rauf                48       77     8.37    18.61   13.34   8.41         0.545       1.207     8.70         0.563       7.95      67.16   
+9     Rasikh Salam              28       38     9.25    22.00   14.26   8.98         0.520       1.274     9.20         0.614       8.86      67.00   
+10    Jasprit Bumrah            75       85     6.92    23.19   20.11   7.15         0.345       1.120     7.23         0.436       6.85      65.93   
+
+================================================================================
+DETAILED TOP-10 BATTER PROFILES
+================================================================================
+
+#1 Dinesh Karthik
+   Matches: 61 | Runs: 1066 | Avg: 31.4 | SR: 167.3
+   Pressure: Runs=976 | Avg=31.5 | SR=180.4 | Dot%=23.7%
+   Pressure Index (PI_bat): 1.083
+   Chase SR: 186.7 (ratio vs baseline: 1.12)
+   Death SR: 185.0 (ratio vs baseline: 1.11)
+   Collapse Rescue Runs: 22
+   Strike Rotation%: 43.5%
+   PP Chase SR: 206.2 | KO Avg: 27.0
+   Consistency CV: 1.022
+   >>> COMPOSITE SCORE: 64.44 / 100
+
+#2 George Dockrell
+   Matches: 42 | Runs: 677 | Avg: 27.1 | SR: 136.2
+   Pressure: Runs=586 | Avg=30.8 | SR=148.7 | Dot%=24.6%
+   Pressure Index (PI_bat): 1.244
+   Chase SR: 148.5 (ratio vs baseline: 1.09)
+   Death SR: 147.3 (ratio vs baseline: 1.08)
+   Collapse Rescue Runs: 18
+   Strike Rotation%: 49.9%
+   PP Chase SR: 90.0 | KO Avg: 0.0
+   Consistency CV: 0.912
+   >>> COMPOSITE SCORE: 63.55 / 100
+
+#3 Rassie van der Dussen
+   Matches: 20 | Runs: 388 | Avg: 24.2 | SR: 125.6
+   Pressure: Runs=233 | Avg=29.1 | SR=154.3 | Dot%=26.5%
+   Pressure Index (PI_bat): 1.476
+   Chase SR: 128.7 (ratio vs baseline: 1.02)
+   Death SR: 197.2 (ratio vs baseline: 1.57)
+   Collapse Rescue Runs: 0
+   Strike Rotation%: 47.9%
+   PP Chase SR: 111.8 | KO Avg: 0.0
+   Consistency CV: 1.115
+   >>> COMPOSITE SCORE: 61.09 / 100
+
+#4 Ish Sodhi
+   Matches: 29 | Runs: 149 | Avg: 7.5 | SR: 112.0
+   Pressure: Runs=149 | Avg=7.8 | SR=113.7 | Dot%=27.5%
+   Pressure Index (PI_bat): 1.069
+   Chase SR: 151.6 (ratio vs baseline: 1.35)
+   Death SR: 120.7 (ratio vs baseline: 1.08)
+   Collapse Rescue Runs: 20
+   Strike Rotation%: 45.9%
+   PP Chase SR: 0.0 | KO Avg: 2.0
+   Consistency CV: 1.348
+   >>> COMPOSITE SCORE: 59.71 / 100
+
+#5 Ravindra Jadeja
+   Matches: 65 | Runs: 1293 | Avg: 33.2 | SR: 135.3
+   Pressure: Runs=991 | Avg=30.0 | SR=144.3 | Dot%=21.8%
+   Pressure Index (PI_bat): 0.966
+   Chase SR: 147.0 (ratio vs baseline: 1.09)
+   Death SR: 151.4 (ratio vs baseline: 1.12)
+   Collapse Rescue Runs: 1
+   Strike Rotation%: 57.1%
+   PP Chase SR: 176.9 | KO Avg: 94.0
+   Consistency CV: 0.794
+   >>> COMPOSITE SCORE: 59.09 / 100
+
+#6 Cooper Connolly
+   Matches: 21 | Runs: 567 | Avg: 29.8 | SR: 157.1
+   Pressure: Runs=299 | Avg=42.7 | SR=169.9 | Dot%=33.5%
+   Pressure Index (PI_bat): 1.548
+   Chase SR: 163.3 (ratio vs baseline: 1.04)
+   Death SR: 237.8 (ratio vs baseline: 1.51)
+   Collapse Rescue Runs: 0
+   Strike Rotation%: 38.5%
+   PP Chase SR: 156.0 | KO Avg: 0.0
+   Consistency CV: 1.113
+   >>> COMPOSITE SCORE: 59.07 / 100
+
+#7 Dhruv Jurel
+   Matches: 54 | Runs: 1207 | Avg: 30.9 | SR: 151.3
+   Pressure: Runs=785 | Avg=34.1 | SR=167.4 | Dot%=23.2%
+   Pressure Index (PI_bat): 1.220
+   Chase SR: 156.1 (ratio vs baseline: 1.03)
+   Death SR: 172.1 (ratio vs baseline: 1.14)
+   Collapse Rescue Runs: 0
+   Strike Rotation%: 48.6%
+   PP Chase SR: 200.0 | KO Avg: 60.5
+   Consistency CV: 0.993
+   >>> COMPOSITE SCORE: 59.07 / 100
+
+#8 Rinku Singh
+   Matches: 83 | Runs: 1956 | Avg: 39.1 | SR: 153.1
+   Pressure: Runs=1375 | Avg=34.4 | SR=171.4 | Dot%=26.8%
+   Pressure Index (PI_bat): 0.984
+   Chase SR: 167.5 (ratio vs baseline: 1.09)
+   Death SR: 191.9 (ratio vs baseline: 1.25)
+   Collapse Rescue Runs: 17
+   Strike Rotation%: 48.0%
+   PP Chase SR: 138.7 | KO Avg: 4.0
+   Consistency CV: 0.827
+   >>> COMPOSITE SCORE: 58.75 / 100
+
+#9 Rovman Powell
+   Matches: 100 | Runs: 2287 | Avg: 27.9 | SR: 147.1
+   Pressure: Runs=1594 | Avg=29.5 | SR=169.2 | Dot%=27.6%
+   Pressure Index (PI_bat): 1.218
+   Chase SR: 152.9 (ratio vs baseline: 1.04)
+   Death SR: 189.9 (ratio vs baseline: 1.29)
+   Collapse Rescue Runs: 7
+   Strike Rotation%: 42.8%
+   PP Chase SR: 155.4 | KO Avg: 22.0
+   Consistency CV: 0.883
+   >>> COMPOSITE SCORE: 58.66 / 100
+
+#10 Vijay Shankar
+   Matches: 26 | Runs: 519 | Avg: 25.9 | SR: 135.2
+   Pressure: Runs=401 | Avg=28.6 | SR=154.8 | Dot%=25.9%
+   Pressure Index (PI_bat): 1.264
+   Chase SR: 143.5 (ratio vs baseline: 1.06)
+   Death SR: 193.5 (ratio vs baseline: 1.43)
+   Collapse Rescue Runs: 0
+   Strike Rotation%: 51.3%
+   PP Chase SR: 123.3 | KO Avg: 14.0
+   Consistency CV: 0.938
+   >>> COMPOSITE SCORE: 58.56 / 100
+
+================================================================================
+DETAILED TOP-10 BOWLER PROFILES
+================================================================================
+
+#1 Mohammad Nawaz
+   Matches: 52 | Wickets: 66 | Econ: 7.05 | Avg: 17.86 | SR: 15.21
+   Pressure: Econ=6.88 | WPO=0.556 | Dot%=29.4%
+   Pressure Index (PI_bowl): 1.445
+   Death Overs: Econ=5.64 | WPO=0.480
+   Powerplay:   Econ=7.87 | WPO=0.323
+   Knockout:    Econ=5.57 | WPO=0.643
+   Partnership Breaks (40+ stand): 15
+   Consistency CV: 0.405
+   >>> COMPOSITE SCORE: 78.92 / 100
+
+#2 Shadab Khan
+   Matches: 42 | Wickets: 36 | Econ: 7.75 | Avg: 29.86 | SR: 23.11
+   Pressure: Econ=7.57 | WPO=0.360 | Dot%=27.7%
+   Pressure Index (PI_bowl): 1.422
+   Death Overs: Econ=6.45 | WPO=0.364
+   Powerplay:   Econ=5.00 | WPO=0.500
+   Knockout:    Econ=7.25 | WPO=0.250
+   Partnership Breaks (40+ stand): 6
+   Consistency CV: 0.367
+   >>> COMPOSITE SCORE: 76.52 / 100
+
+#3 Abrar Ahmed
+   Matches: 35 | Wickets: 46 | Econ: 6.57 | Avg: 18.17 | SR: 16.61
+   Pressure: Econ=6.17 | WPO=0.423 | Dot%=38.3%
+   Pressure Index (PI_bowl): 1.245
+   Death Overs: Econ=6.66 | WPO=0.495
+   Powerplay:   Econ=8.56 | WPO=0.360
+   Knockout:    Econ=5.00 | WPO=0.417
+   Partnership Breaks (40+ stand): 4
+   Consistency CV: 0.438
+   >>> COMPOSITE SCORE: 74.49 / 100
+
+#4 Mitchell Starc
+   Matches: 39 | Wickets: 53 | Econ: 9.17 | Avg: 23.36 | SR: 15.28
+   Pressure: Econ=9.13 | WPO=0.543 | Dot%=29.7%
+   Pressure Index (PI_bowl): 1.389
+   Death Overs: Econ=9.85 | WPO=0.758
+   Powerplay:   Econ=9.25 | WPO=0.247
+   Knockout:    Econ=6.71 | WPO=0.714
+   Partnership Breaks (40+ stand): 7
+   Consistency CV: 0.316
+   >>> COMPOSITE SCORE: 71.29 / 100
+
+#5 Shaheen Afridi
+   Matches: 47 | Wickets: 65 | Econ: 7.64 | Avg: 19.42 | SR: 15.25
+   Pressure: Econ=7.65 | WPO=0.464 | Dot%=35.7%
+   Pressure Index (PI_bowl): 1.177
+   Death Overs: Econ=8.01 | WPO=0.569
+   Powerplay:   Econ=7.34 | WPO=0.311
+   Knockout:    Econ=4.56 | WPO=0.556
+   Partnership Breaks (40+ stand): 4
+   Consistency CV: 0.408
+   >>> COMPOSITE SCORE: 70.60 / 100
+
+#6 Sunil Narine
+   Matches: 67 | Wickets: 66 | Econ: 6.76 | Avg: 26.18 | SR: 23.23
+   Pressure: Econ=7.09 | WPO=0.304 | Dot%=31.4%
+   Pressure Index (PI_bowl): 1.122
+   Death Overs: Econ=5.94 | WPO=0.528
+   Powerplay:   Econ=8.03 | WPO=0.203
+   Knockout:    Econ=7.00 | WPO=0.250
+   Partnership Breaks (40+ stand): 17
+   Consistency CV: 0.339
+   >>> COMPOSITE SCORE: 69.55 / 100
+
+#7 Allah Ghazanfar
+   Matches: 22 | Wickets: 28 | Econ: 7.90 | Avg: 21.68 | SR: 16.46
+   Pressure: Econ=7.48 | WPO=0.421 | Dot%=38.7%
+   Pressure Index (PI_bowl): 1.219
+   Death Overs: Econ=10.27 | WPO=0.610
+   Powerplay:   Econ=7.29 | WPO=0.395
+   Knockout:    Econ=4.82 | WPO=0.455
+   Partnership Breaks (40+ stand): 3
+   Consistency CV: 0.450
+   >>> COMPOSITE SCORE: 68.36 / 100
+
+#8 Haris Rauf
+   Matches: 48 | Wickets: 77 | Econ: 8.37 | Avg: 18.61 | SR: 13.34
+   Pressure: Econ=8.41 | WPO=0.545 | Dot%=31.9%
+   Pressure Index (PI_bowl): 1.207
+   Death Overs: Econ=8.70 | WPO=0.563
+   Powerplay:   Econ=7.95 | WPO=0.317
+   Knockout:    Econ=8.49 | WPO=0.429
+   Partnership Breaks (40+ stand): 16
+   Consistency CV: 0.289
+   >>> COMPOSITE SCORE: 67.16 / 100
+
+#9 Rasikh Salam
+   Matches: 28 | Wickets: 38 | Econ: 9.25 | Avg: 22.00 | SR: 14.26
+   Pressure: Econ=8.98 | WPO=0.520 | Dot%=26.2%
+   Pressure Index (PI_bowl): 1.274
+   Death Overs: Econ=9.20 | WPO=0.614
+   Powerplay:   Econ=8.86 | WPO=0.286
+   Knockout:    Econ=6.45 | WPO=0.727
+   Partnership Breaks (40+ stand): 10
+   Consistency CV: 0.267
+   >>> COMPOSITE SCORE: 67.00 / 100
+
+#10 Jasprit Bumrah
+   Matches: 75 | Wickets: 85 | Econ: 6.92 | Avg: 23.19 | SR: 20.11
+   Pressure: Econ=7.15 | WPO=0.345 | Dot%=35.1%
+   Pressure Index (PI_bowl): 1.120
+   Death Overs: Econ=7.23 | WPO=0.436
+   Powerplay:   Econ=6.85 | WPO=0.216
+   Knockout:    Econ=8.15 | WPO=0.269
+   Partnership Breaks (40+ stand): 12
+   Consistency CV: 0.393
+   >>> COMPOSITE SCORE: 65.93 / 100
+
+================================================================================
+COMPONENT SCORE BREAKDOWN — TOP 10 BATTERS
+================================================================================
+Player                    Pressure Ind(25%) Chase SR Rat(20%) Death SR Rat(15%) Dot% (inv)(10%)   Collapse Res(10%) Strike Rotat(5%)  PP Chase SR(5%)   KO Avg(5%)        Consistency(5%)   TOTAL   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Dinesh Karthik            14.50             13.19             6.79              8.48              10.00             2.95              4.12              1.30              3.11              64.44   
+George Dockrell           18.13             12.69             6.64              8.13              8.18              3.90              2.21              0.00              3.67              63.55   
+Rassie van der Dussen     23.37             11.40             9.64              7.46              0.00              3.60              2.97              0.00              2.64              61.09   
+Ish Sodhi                 14.19             17.86             6.61              7.10              9.09              3.30              0.00              0.10              1.46              59.71   
+Ravindra Jadeja           11.88             12.63             6.87              9.15              0.45              4.96              4.37              4.52              4.26              59.09   
+Cooper Connolly           25.00             11.69             9.29              4.90              0.00              2.22              3.32              0.00              2.65              59.07   
+Dhruv Jurel               17.61             11.54             6.98              8.63              0.00              3.71              4.42              2.91              3.26              59.07   
+Rinku Singh               12.29             12.77             7.69              7.34              7.73              3.61              3.03              0.19              4.09              58.75   
+Rovman Powell             17.55             11.69             7.93              7.05              3.18              2.86              3.53              1.06              3.81              58.66   
+Vijay Shankar             18.60             12.13             8.79              7.68              0.00              4.11              3.05              0.67              3.54              58.56   
+
+================================================================================
+COMPONENT SCORE BREAKDOWN — TOP 10 BOWLERS
+================================================================================
+Player                    PI_bowl(25%)      Death Econ(20%)   Death WPO(15%)    Press Dot%(10%)   PP Econ(10%)      PP WPO(5%)        KO Econ(10%)      Consistency(5%)   TOTAL   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Mohammad Nawaz            24.43             20.00             8.00              4.61              8.09              2.49              8.61              2.69              78.92   
+Shadab Khan               23.76             18.08             6.06              3.89              10.00             3.85              7.61              3.26              76.52   
+Abrar Ahmed               18.61             17.60             8.26              8.47              7.63              2.78              8.96              2.20              74.49   
+Mitchell Starc            22.80             10.10             12.63             4.74              7.17              1.90              7.93              4.02              71.29   
+Shaheen Afridi            16.63             14.41             9.49              7.35              8.44              2.40              9.22              2.65              70.60   
+Sunil Narine              15.02             19.28             8.80              5.47              7.98              1.56              7.76              3.68              69.55   
+Allah Ghazanfar           17.83             9.11              10.17             8.65              8.47              3.04              9.06              2.02              68.36   
+Haris Rauf                17.51             12.80             9.38              5.69              8.03              2.45              6.87              4.43              67.16   
+Rasikh Salam              19.44             11.62             10.23             3.26              7.43              2.20              8.09              4.74              67.00   
+Jasprit Bumrah            14.95             16.25             7.27              7.07              8.76              1.66              7.08              2.88              65.93   
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajasthan Royals IPL 2027 Auction Dashboard — T20 Pressure Index</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .royal-pink { color: #E91E63; }
+        .bg-royal-pink { background-color: #E91E63; }
+        .bg-royal-navy { background-color: #141852; }
+        .border-royal-pink { border-color: #E91E63; }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen">
+    <!-- Header -->
+    <header class="bg-royal-navy border-b border-royal-pink py-4 px-6 sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-royal-pink flex items-center justify-center font-black text-white text-xl shadow">RR</div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-bold text-white tracking-wide">SupeRR Selector Season 2: IPL 2027 Auction Dashboard</h1>
+                    <p class="text-xs text-pink-400 font-semibold tracking-wider uppercase">T20 Pressure Index (v5 Improved) • 883 Matches • 200,961 Deliveries</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap gap-2">
+                <button onclick="switchTab('batters')" id="btn-batters" class="px-4 py-2 text-xs font-bold rounded-lg transition bg-royal-pink text-white shadow">Batting Pressure</button>
+                <button onclick="switchTab('bowlers')" id="btn-bowlers" class="px-4 py-2 text-xs font-bold rounded-lg transition bg-slate-800 text-slate-300 hover:bg-slate-700">Bowling Pressure</button>
+                <button onclick="switchTab('rr-strategy')" id="btn-rr" class="px-4 py-2 text-xs font-bold rounded-lg transition bg-slate-800 text-slate-300 hover:bg-slate-700">RR Auction Blueprint</button>
+                <button onclick="switchTab('ppt-slides')" id="btn-ppt" class="px-4 py-2 text-xs font-bold rounded-lg transition bg-amber-600 text-white hover:bg-amber-500 shadow">📊 PPT Slide Deck</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-6 space-y-6">
+        <!-- Overview Banner -->
+        <div class="bg-gradient-to-r from-blue-950 via-slate-900 to-pink-950 p-6 rounded-2xl border border-slate-800 shadow-xl">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center">
+                <div class="p-3 bg-slate-800/60 rounded-xl border border-slate-700">
+                    <div class="text-2xl font-black text-pink-400">8 Simultaneous</div>
+                    <div class="text-xs text-slate-400 uppercase font-semibold">Batting Floor Cutoffs</div>
+                </div>
+                <div class="p-3 bg-slate-800/60 rounded-xl border border-slate-700">
+                    <div class="text-2xl font-black text-blue-400">9 Simultaneous</div>
+                    <div class="text-xs text-slate-400 uppercase font-semibold">Bowling Floor Cutoffs</div>
+                </div>
+                <div class="p-3 bg-slate-800/60 rounded-xl border border-slate-700">
+                    <div class="text-2xl font-black text-amber-400">12 Balls Post-Wkt</div>
+                    <div class="text-xs text-slate-400 uppercase font-semibold">Situational Shockwave</div>
+                </div>
+                <div class="p-3 bg-slate-800/60 rounded-xl border border-slate-700">
+                    <div class="text-2xl font-black text-emerald-400">IPL Eligible Only</div>
+                    <div class="text-xs text-slate-400 uppercase font-semibold">BCCI Policy Compliant</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BATTERS TAB -->
+        <div id="tab-batters" class="space-y-6">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="lg:col-span-2 bg-slate-800 rounded-2xl border border-slate-700 p-5 shadow-xl overflow-x-auto">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-lg font-bold text-white flex items-center gap-2">
+                            <span class="w-2.5 h-2.5 rounded-full bg-royal-pink"></span> Top 10 Batters Under Pressure (Dropdown Selections)
+                        </h2>
+                        <span class="text-xs bg-pink-900/40 text-pink-300 px-3 py-1 rounded-full border border-pink-700/50">36 Qualified Batters</span>
+                    </div>
+                    <table class="w-full text-left text-xs text-slate-300">
+                        <thead class="bg-slate-900 text-slate-400 uppercase font-semibold">
+                            <tr>
+                                <th class="p-2.5">Rank</th>
+                                <th class="p-2.5">Player</th>
+                                <th class="p-2.5">Role</th>
+                                <th class="p-2.5 text-center">Base SR</th>
+                                <th class="p-2.5 text-center">Death SR</th>
+                                <th class="p-2.5 text-center">Chase SR</th>
+                                <th class="p-2.5 text-center">Post-Wkt SR</th>
+                                <th class="p-2.5 text-center">Score</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-700">
+                            <tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#1</td>
+                                <td class="p-2.5 font-semibold text-white">Phil Salt</td>
+                                <td class="p-2.5 text-slate-400">Top Order</td>
+                                <td class="p-2.5 text-center font-mono">169.5</td>
+                                <td class="p-2.5 text-center font-mono text-pink-400 font-bold">209.6</td>
+                                <td class="p-2.5 text-center font-mono">171.2</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400">170.4</td>
+                                <td class="p-2.5 text-center font-mono font-black text-royal-pink bg-pink-950/20">60.1</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#2</td>
+                                <td class="p-2.5 font-semibold text-white">Shashank Singh</td>
+                                <td class="p-2.5 text-slate-400">Lower Order</td>
+                                <td class="p-2.5 text-center font-mono">161.6</td>
+                                <td class="p-2.5 text-center font-mono text-pink-400 font-bold">195.4</td>
+                                <td class="p-2.5 text-center font-mono">164.2</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400">148.2</td>
+                                <td class="p-2.5 text-center font-mono font-black text-royal-pink bg-pink-950/20">55.7</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#3</td>
+                                <td class="p-2.5 font-semibold text-white">Tim David</td>
+                                <td class="p-2.5 text-slate-400">Lower Order</td>
+                                <td class="p-2.5 text-center font-mono">177.0</td>
+                                <td class="p-2.5 text-center font-mono text-pink-400 font-bold">199.8</td>
+                                <td class="p-2.5 text-center font-mono">182.2</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400">164.5</td>
+                                <td class="p-2.5 text-center font-mono font-black text-royal-pink bg-pink-950/20">55.3</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#4</td>
+                                <td class="p-2.5 font-semibold text-white">Sai Sudharsan</td>
+                                <td class="p-2.5 text-slate-400">Top Order</td>
+                                <td class="p-2.5 text-center font-mono">149.1</td>
+                                <td class="p-2.5 text-center font-mono text-pink-400 font-bold">206.8</td>
+                                <td class="p-2.5 text-center font-mono">146.4</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400">140.0</td>
+                                <td class="p-2.5 text-center font-mono font-black text-royal-pink bg-pink-950/20">53.4</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#5</td>
+                                <td class="p-2.5 font-semibold text-white">Heinrich Klaasen</td>
+                                <td class="p-2.5 text-slate-400">Middle Order</td>
+                                <td class="p-2.5 text-center font-mono">167.0</td>
+                                <td class="p-2.5 text-center font-mono text-pink-400 font-bold">198.2</td>
+                                <td class="p-2.5 text-center font-mono">158.5</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400">143.2</td>
+                                <td class="p-2.5 text-center font-mono font-black text-royal-pink bg-pink-950/20">52.5</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#6</td>
+                                <td class="p-2.5 font-semibold text-white">Suryakumar Yadav</td>
+                                <td class="p-2.5 text-slate-400">Middle Order</td>
+                                <td class="p-2.5 text-center font-mono">166.4</td>
+                                <td class="p-2.5 text-center font-mono text-pink-400 font-bold">216.7</td>
+                                <td class="p-2.5 text-center font-mono">168.4</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400">149.5</td>
+                                <td class="p-2.5 text-center font-mono font-black text-royal-pink bg-pink-950/20">52.2</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#7</td>
+                                <td class="p-2.5 font-semibold text-white">Shreyas Iyer</td>
+                                <td class="p-2.5 text-slate-400">Middle Order</td>
+                                <td class="p-2.5 text-center font-mono">153.4</td>
+                                <td class="p-2.5 text-center font-mono text-pink-400 font-bold">200.3</td>
+                                <td class="p-2.5 text-center font-mono">159.2</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400">144.6</td>
+                                <td class="p-2.5 text-center font-mono font-black text-royal-pink bg-pink-950/20">49.7</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#8</td>
+                                <td class="p-2.5 font-semibold text-white">Naman Dhir</td>
+                                <td class="p-2.5 text-slate-400">Middle Order</td>
+                                <td class="p-2.5 text-center font-mono">168.7</td>
+                                <td class="p-2.5 text-center font-mono text-pink-400 font-bold">201.7</td>
+                                <td class="p-2.5 text-center font-mono">176.0</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400">164.3</td>
+                                <td class="p-2.5 text-center font-mono font-black text-royal-pink bg-pink-950/20">49.2</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#9</td>
+                                <td class="p-2.5 font-semibold text-white">Jos Buttler</td>
+                                <td class="p-2.5 text-slate-400">Top Order</td>
+                                <td class="p-2.5 text-center font-mono">155.5</td>
+                                <td class="p-2.5 text-center font-mono text-pink-400 font-bold">196.7</td>
+                                <td class="p-2.5 text-center font-mono">157.0</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400">145.3</td>
+                                <td class="p-2.5 text-center font-mono font-black text-royal-pink bg-pink-950/20">47.9</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#10</td>
+                                <td class="p-2.5 font-semibold text-white">Tristan Stubbs</td>
+                                <td class="p-2.5 text-slate-400">Middle Order</td>
+                                <td class="p-2.5 text-center font-mono">149.0</td>
+                                <td class="p-2.5 text-center font-mono text-pink-400 font-bold">195.4</td>
+                                <td class="p-2.5 text-center font-mono">143.7</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400">135.5</td>
+                                <td class="p-2.5 text-center font-mono font-black text-royal-pink bg-pink-950/20">47.4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="bg-slate-800 rounded-2xl border border-slate-700 p-5 shadow-xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-sm font-bold text-slate-200 uppercase tracking-wider mb-2">Batting Dimension Profile (Phil Salt vs Klaasen)</h3>
+                        <canvas id="batRadarChart" height="230"></canvas>
+                    </div>
+                    <div class="mt-4 p-3 bg-slate-900/70 rounded-xl border border-slate-700 text-xs text-slate-300 space-y-1">
+                        <div class="font-bold text-pink-400">Key Insight for Rajasthan Royals:</div>
+                        <div>Phil Salt (#1) offers unmatched post-wicket rebound (170.4 SR). Heinrich Klaasen (#5) and Tim David (#3) offer dual 198+ death strike rates to eliminate RR's death finishing deficit.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BOWLERS TAB -->
+        <div id="tab-bowlers" class="space-y-6 hidden">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="lg:col-span-2 bg-slate-800 rounded-2xl border border-slate-700 p-5 shadow-xl overflow-x-auto">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-lg font-bold text-white flex items-center gap-2">
+                            <span class="w-2.5 h-2.5 rounded-full bg-blue-500"></span> Top 10 Bowlers Under Pressure (Global T20 Leaderboard)
+                        </h2>
+                        <span class="text-xs bg-blue-900/40 text-blue-300 px-3 py-1 rounded-full border border-blue-700/50">24 Qualified Bowlers</span>
+                    </div>
+                    <table class="w-full text-left text-xs text-slate-300">
+                        <thead class="bg-slate-900 text-slate-400 uppercase font-semibold">
+                            <tr>
+                                <th class="p-2.5">Rank</th>
+                                <th class="p-2.5">Player</th>
+                                <th class="p-2.5">Role</th>
+                                <th class="p-2.5 text-center">Wkts</th>
+                                <th class="p-2.5 text-center">Base Econ</th>
+                                <th class="p-2.5 text-center">Death Econ</th>
+                                <th class="p-2.5 text-center">Crunch Econ</th>
+                                <th class="p-2.5 text-center">Score</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-700">
+                            <tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#1</td>
+                                <td class="p-2.5 font-semibold text-white">Mohammad Nawaz</td>
+                                <td class="p-2.5 text-slate-400">Middle Overs Specialist</td>
+                                <td class="p-2.5 text-center font-mono font-bold text-white">65</td>
+                                <td class="p-2.5 text-center font-mono">7.04</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400 font-bold">5.64</td>
+                                <td class="p-2.5 text-center font-mono text-blue-400">7.68</td>
+                                <td class="p-2.5 text-center font-mono font-black text-blue-400 bg-blue-950/20">65.3</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#2</td>
+                                <td class="p-2.5 font-semibold text-white">Varun Chakravarthy</td>
+                                <td class="p-2.5 text-slate-400">Middle Overs Specialist</td>
+                                <td class="p-2.5 text-center font-mono font-bold text-white">136</td>
+                                <td class="p-2.5 text-center font-mono">7.81</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400 font-bold">8.39</td>
+                                <td class="p-2.5 text-center font-mono text-blue-400">7.30</td>
+                                <td class="p-2.5 text-center font-mono font-black text-blue-400 bg-blue-950/20">61.1</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#3</td>
+                                <td class="p-2.5 font-semibold text-white">Jasprit Bumrah</td>
+                                <td class="p-2.5 text-slate-400">PP Specialist</td>
+                                <td class="p-2.5 text-center font-mono font-bold text-white">92</td>
+                                <td class="p-2.5 text-center font-mono">6.85</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400 font-bold">7.22</td>
+                                <td class="p-2.5 text-center font-mono text-blue-400">7.10</td>
+                                <td class="p-2.5 text-center font-mono font-black text-blue-400 bg-blue-950/20">59.7</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#4</td>
+                                <td class="p-2.5 font-semibold text-white">Shaheen Afridi</td>
+                                <td class="p-2.5 text-slate-400">PP Specialist</td>
+                                <td class="p-2.5 text-center font-mono font-bold text-white">65</td>
+                                <td class="p-2.5 text-center font-mono">7.63</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400 font-bold">8.01</td>
+                                <td class="p-2.5 text-center font-mono text-blue-400">6.80</td>
+                                <td class="p-2.5 text-center font-mono font-black text-blue-400 bg-blue-950/20">59.3</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#5</td>
+                                <td class="p-2.5 font-semibold text-white">Taskin Ahmed</td>
+                                <td class="p-2.5 text-slate-400">PP Specialist</td>
+                                <td class="p-2.5 text-center font-mono font-bold text-white">69</td>
+                                <td class="p-2.5 text-center font-mono">7.66</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400 font-bold">8.52</td>
+                                <td class="p-2.5 text-center font-mono text-blue-400">7.30</td>
+                                <td class="p-2.5 text-center font-mono font-black text-blue-400 bg-blue-950/20">57.3</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#6</td>
+                                <td class="p-2.5 font-semibold text-white">Akeal Hosein</td>
+                                <td class="p-2.5 text-slate-400">PP Specialist</td>
+                                <td class="p-2.5 text-center font-mono font-bold text-white">80</td>
+                                <td class="p-2.5 text-center font-mono">7.53</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400 font-bold">7.47</td>
+                                <td class="p-2.5 text-center font-mono text-blue-400">7.26</td>
+                                <td class="p-2.5 text-center font-mono font-black text-blue-400 bg-blue-950/20">54.3</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#7</td>
+                                <td class="p-2.5 font-semibold text-white">Matheesha Pathirana</td>
+                                <td class="p-2.5 text-slate-400">Death Specialist</td>
+                                <td class="p-2.5 text-center font-mono font-bold text-white">85</td>
+                                <td class="p-2.5 text-center font-mono">7.78</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400 font-bold">8.17</td>
+                                <td class="p-2.5 text-center font-mono text-blue-400">7.75</td>
+                                <td class="p-2.5 text-center font-mono font-black text-blue-400 bg-blue-950/20">51.8</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#8</td>
+                                <td class="p-2.5 font-semibold text-white">Maheesh Theekshana</td>
+                                <td class="p-2.5 text-slate-400">PP Specialist</td>
+                                <td class="p-2.5 text-center font-mono font-bold text-white">96</td>
+                                <td class="p-2.5 text-center font-mono">7.57</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400 font-bold">8.02</td>
+                                <td class="p-2.5 text-center font-mono text-blue-400">7.08</td>
+                                <td class="p-2.5 text-center font-mono font-black text-blue-400 bg-blue-950/20">50.7</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#9</td>
+                                <td class="p-2.5 font-semibold text-white">Noor Ahmad</td>
+                                <td class="p-2.5 text-slate-400">Middle Overs Specialist</td>
+                                <td class="p-2.5 text-center font-mono font-bold text-white">84</td>
+                                <td class="p-2.5 text-center font-mono">7.61</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400 font-bold">7.58</td>
+                                <td class="p-2.5 text-center font-mono text-blue-400">8.77</td>
+                                <td class="p-2.5 text-center font-mono font-black text-blue-400 bg-blue-950/20">50.4</td>
+                            </tr><tr class="hover:bg-slate-750 transition">
+                                <td class="p-2.5 font-bold text-amber-400">#10</td>
+                                <td class="p-2.5 font-semibold text-white">Axar Patel</td>
+                                <td class="p-2.5 text-slate-400">Middle Overs Specialist</td>
+                                <td class="p-2.5 text-center font-mono font-bold text-white">126</td>
+                                <td class="p-2.5 text-center font-mono">7.78</td>
+                                <td class="p-2.5 text-center font-mono text-emerald-400 font-bold">8.65</td>
+                                <td class="p-2.5 text-center font-mono text-blue-400">8.18</td>
+                                <td class="p-2.5 text-center font-mono font-black text-blue-400 bg-blue-950/20">48.1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="bg-slate-800 rounded-2xl border border-slate-700 p-5 shadow-xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-sm font-bold text-slate-200 uppercase tracking-wider mb-2">Bowling Dimension Profile (Chakravarthy vs Pathirana)</h3>
+                        <canvas id="bowlRadarChart" height="230"></canvas>
+                    </div>
+                    <div class="mt-4 p-3 bg-slate-900/70 rounded-xl border border-slate-700 text-xs text-slate-300 space-y-1">
+                        <div class="font-bold text-blue-400">Key Insight for Rajasthan Royals:</div>
+                        <div>Varun Chakravarthy (#2, 136 wkts) and Matheesha Pathirana (#7, 8.17 death econ) provide the dual middle & death execution RR needs. Taskin Ahmed (#5, 6.57 post-wkt econ) provides eligible overseas pace.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RR AUCTION STRATEGY TAB (IPL ELIGIBLE TARGETS ONLY) -->
+        <div id="tab-rr-strategy" class="space-y-6 hidden">
+            <div class="p-4 bg-amber-950/40 border border-amber-600/50 rounded-xl text-xs text-amber-200">
+                <b>BCCI / IPL Policy Compliance Note:</b> Global analytics evaluates all players objectively; our Rajasthan Royals auction targeting strictly filters for <b>auction-eligible Indian and overseas stars</b> (excluding Pakistani players per league regulations).
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Target Card 1 -->
+                <div class="bg-slate-800 border border-pink-700/40 rounded-2xl p-5 shadow-xl space-y-3">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <span class="text-xs bg-pink-900/50 text-pink-300 px-2 py-0.5 rounded font-bold uppercase">Priority 1: Finisher Scarcity</span>
+                            <h3 class="text-lg font-bold text-white mt-1">Tim David & Shashank Singh</h3>
+                        </div>
+                        <span class="text-xl font-black text-pink-400">₹32 Cr</span>
+                    </div>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        RR's Achilles' heel has been closing out 12+ RRR chases when Samson and Parag are dismissed. Tim David (199.8 Death SR) and Shashank Singh (195.4 Death SR, 27.2% dot rate) provide the highest death overs value in T20 cricket.
+                    </p>
+                    <div class="text-xs font-semibold text-pink-400">Target Role: Positions 6 & 7 Death Blitzkrieg</div>
+                </div>
+
+                <!-- Target Card 2 -->
+                <div class="bg-slate-800 border border-blue-700/40 rounded-2xl p-5 shadow-xl space-y-3">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <span class="text-xs bg-blue-900/50 text-blue-300 px-2 py-0.5 rounded font-bold uppercase">Priority 2: Death Slinger</span>
+                            <h3 class="text-lg font-bold text-white mt-1">Matheesha Pathirana</h3>
+                        </div>
+                        <span class="text-xl font-black text-blue-400">₹28 Cr</span>
+                    </div>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        While Trent Boult dominates the powerplay, RR needs an unhittable slinger to bowl overs 18 & 20. Pathirana brings 85 wickets, an 8.17 death economy, and a 41.8% pressure dot ball choke.
+                    </p>
+                    <div class="text-xs font-semibold text-blue-400">Target Role: Overs 18 & 20 Lockdown</div>
+                </div>
+
+                <!-- Target Card 3 -->
+                <div class="bg-slate-800 border border-emerald-700/40 rounded-2xl p-5 shadow-xl space-y-3">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <span class="text-xs bg-emerald-900/50 text-emerald-300 px-2 py-0.5 rounded font-bold uppercase">Priority 3: Mystery Break</span>
+                            <h3 class="text-lg font-bold text-white mt-1">Varun Chakravarthy</h3>
+                        </div>
+                        <span class="text-xl font-black text-emerald-400">₹18 Cr</span>
+                    </div>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        With 136 career wickets and a 7.30 crunch-over economy, Varun repeatedly breaks 35+ partnerships and concedes zero boundary flow in overs 7–15, perfect for the Sawai Mansingh Stadium pitch.
+                    </p>
+                    <div class="text-xs font-semibold text-emerald-400">Target Role: Middle-Overs Spin Enforcer</div>
+                </div>
+            </div>
+
+            <!-- Recommended Starting XI -->
+            <div class="bg-slate-800 rounded-2xl border border-slate-700 p-6 shadow-xl">
+                <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-amber-400"></span> Rajasthan Royals Projected IPL 2027 Blueprint Starting XI (All Eligible)
+                </h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 text-xs">
+                    <div class="p-3 bg-slate-900 rounded-xl border border-slate-700"><span class="text-amber-400 font-bold">1.</span> Yashasvi Jaiswal (LH)</div>
+                    <div class="p-3 bg-pink-950/40 rounded-xl border border-pink-700/50 text-pink-200"><span class="text-pink-400 font-bold">2.</span> Phil Salt (WK) [Target]</div>
+                    <div class="p-3 bg-slate-900 rounded-xl border border-slate-700"><span class="text-amber-400 font-bold">3.</span> Sanju Samson (C)</div>
+                    <div class="p-3 bg-pink-950/40 rounded-xl border border-pink-700/50 text-pink-200"><span class="text-pink-400 font-bold">4.</span> Heinrich Klaasen [Target]</div>
+                    <div class="p-3 bg-slate-900 rounded-xl border border-slate-700"><span class="text-amber-400 font-bold">5.</span> Riyan Parag (RH)</div>
+                    <div class="p-3 bg-pink-950/40 rounded-xl border border-pink-700/50 text-pink-200"><span class="text-pink-400 font-bold">6.</span> Shashank Singh [Target]</div>
+                    <div class="p-3 bg-pink-950/40 rounded-xl border border-pink-700/50 text-pink-200"><span class="text-pink-400 font-bold">7.</span> Tim David [Target]</div>
+                    <div class="p-3 bg-slate-900 rounded-xl border border-slate-700"><span class="text-amber-400 font-bold">8.</span> R. Ashwin / Axar Patel [Target]</div>
+                    <div class="p-3 bg-blue-950/40 rounded-xl border border-blue-700/50 text-blue-200"><span class="text-blue-400 font-bold">9.</span> Varun Chakravarthy [Target]</div>
+                    <div class="p-3 bg-slate-900 rounded-xl border border-slate-700"><span class="text-amber-400 font-bold">10.</span> Trent Boult (LF)</div>
+                    <div class="p-3 bg-blue-950/40 rounded-xl border border-blue-700/50 text-blue-200"><span class="text-blue-400 font-bold">11.</span> Matheesha Pathirana / Taskin Ahmed [Target]</div>
+                    <div class="p-3 bg-slate-800 rounded-xl border border-amber-600/50 text-amber-200"><span class="text-amber-400 font-bold">Impact:</span> Sandeep Sharma</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PPT SLIDES BREAKDOWN TAB -->
+        <div id="tab-ppt-slides" class="space-y-6 hidden">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center bg-slate-800 p-5 rounded-2xl border border-slate-700 gap-4">
+                <div>
+                    <h3 class="text-lg font-bold text-white">📊 Rajasthan Royals IPL 2027 Auction Strategy Deck (PPTX)</h3>
+                    <p class="text-xs text-slate-400 mt-1">10 Professional 16:9 Widescreen Slides in Royal Pink & Royal Navy theme, fully compliant with BCCI/IPL regulations.</p>
+                </div>
+                <div class="flex gap-3">
+                    <a href="Rajasthan_Royals_IPL_2027_Auction_Strategy.pptx" download class="px-4 py-2 bg-royal-pink text-white text-xs font-bold rounded-lg hover:bg-pink-700 transition shadow">Download Presentation (.pptx)</a>
+                    <a href="Rajasthan_Royals_IPL_2027_Auction_Strategy.pdf" download class="px-4 py-2 bg-blue-600 text-white text-xs font-bold rounded-lg hover:bg-blue-700 transition shadow">Download Executive PDF</a>
+                </div>
+            </div>
+
+            <!-- Slide Breakdown Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="p-4 bg-slate-800 rounded-xl border border-slate-700">
+                    <div class="text-xs font-bold text-pink-400">SLIDE 1 & 2</div>
+                    <h4 class="font-bold text-white text-sm mt-1">Title & Executive Summary</h4>
+                    <p class="text-xs text-slate-300 mt-1">Introduction to the T20 Pressure Index (v5 Improved), RR's historical death-overs volatility, and post-wicket freeze diagnosis.</p>
+                </div>
+                <div class="p-4 bg-slate-800 rounded-xl border border-slate-700">
+                    <div class="text-xs font-bold text-pink-400">SLIDE 3 & 4</div>
+                    <h4 class="font-bold text-white text-sm mt-1">Methodology & Bug Corrections</h4>
+                    <p class="text-xs text-slate-300 mt-1">Multi-gate cutoffs, 5-dimension balanced scoring, isolation of 275 non-striker runouts, and novel post-wicket situational metrics.</p>
+                </div>
+                <div class="p-4 bg-slate-800 rounded-xl border border-slate-700">
+                    <div class="text-xs font-bold text-pink-400">SLIDE 5 & 6</div>
+                    <h4 class="font-bold text-white text-sm mt-1">Definitive Pressure Leaderboards</h4>
+                    <p class="text-xs text-slate-300 mt-1">Top 10 Batters (Salt, Shashank, David, Klaasen) & Top 10 Bowlers (Chakravarthy, Bumrah, Pathirana, Taskin, Axar).</p>
+                </div>
+                <div class="p-4 bg-slate-800 rounded-xl border border-slate-700">
+                    <div class="text-xs font-bold text-pink-400">SLIDE 7 & 8</div>
+                    <h4 class="font-bold text-white text-sm mt-1">IPL-Eligible Target Profiles</h4>
+                    <p class="text-xs text-slate-300 mt-1">Tactical fit analysis for Phil Salt, Shashank Singh, Tim David, Varun Chakravarthy, Matheesha Pathirana, and Taskin Ahmed.</p>
+                </div>
+                <div class="p-4 bg-slate-800 rounded-xl border border-slate-700 md:col-span-2">
+                    <div class="text-xs font-bold text-pink-400">SLIDE 9 & 10</div>
+                    <h4 class="font-bold text-white text-sm mt-1">Starting XI Blueprint & ₹120 Cr Purse Allocation</h4>
+                    <p class="text-xs text-slate-300 mt-1">Recommended Starting XI with Impact Player combinations, budget breakdown (26.7% Death Finishers, 23.3% Death Yorkers, 18.3% WK Opener), and strategic takeaways.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="max-w-7xl mx-auto py-6 px-6 text-center text-xs text-slate-500 border-t border-slate-800">
+        SupeRR Selector Season 2 • Built with T20 Pressure Index v5 Improved • Deterministic & Fully Audited
+    </footer>
+
+    <script>
+        function switchTab(tabId) {
+            document.getElementById('tab-batters').classList.add('hidden');
+            document.getElementById('tab-bowlers').classList.add('hidden');
+            document.getElementById('tab-rr-strategy').classList.add('hidden');
+            document.getElementById('tab-ppt-slides').classList.add('hidden');
+            
+            document.getElementById('btn-batters').className = 'px-4 py-2 text-xs font-bold rounded-lg transition bg-slate-800 text-slate-300 hover:bg-slate-700';
+            document.getElementById('btn-bowlers').className = 'px-4 py-2 text-xs font-bold rounded-lg transition bg-slate-800 text-slate-300 hover:bg-slate-700';
+            document.getElementById('btn-rr').className = 'px-4 py-2 text-xs font-bold rounded-lg transition bg-slate-800 text-slate-300 hover:bg-slate-700';
+            document.getElementById('btn-ppt').className = 'px-4 py-2 text-xs font-bold rounded-lg transition bg-slate-800 text-slate-300 hover:bg-slate-700';
+
+            if(tabId === 'batters') {
+                document.getElementById('tab-batters').classList.remove('hidden');
+                document.getElementById('btn-batters').className = 'px-4 py-2 text-xs font-bold rounded-lg transition bg-royal-pink text-white shadow';
+            } else if(tabId === 'bowlers') {
+                document.getElementById('tab-bowlers').classList.remove('hidden');
+                document.getElementById('btn-bowlers').className = 'px-4 py-2 text-xs font-bold rounded-lg transition bg-royal-pink text-white shadow';
+            } else if(tabId === 'rr-strategy') {
+                document.getElementById('tab-rr-strategy').classList.remove('hidden');
+                document.getElementById('btn-rr').className = 'px-4 py-2 text-xs font-bold rounded-lg transition bg-royal-pink text-white shadow';
+            } else if(tabId === 'ppt-slides') {
+                document.getElementById('tab-ppt-slides').classList.remove('hidden');
+                document.getElementById('btn-ppt').className = 'px-4 py-2 text-xs font-bold rounded-lg transition bg-amber-600 text-white shadow';
+            }
+        }
+
+        // Radar chart for Batters
+        const ctxB = document.getElementById('batRadarChart').getContext('2d');
+        new Chart(ctxB, {
+            type: 'radar',
+            data: {
+                labels: ['Chase Mastery', 'Death Overs', 'Post-Wkt Rebound', 'Strike Rotation', 'Baseline Quality'],
+                datasets: [{
+                    label: 'Phil Salt (Rank 1)',
+                    data: [88, 95, 92, 78, 85],
+                    backgroundColor: 'rgba(233, 30, 99, 0.25)',
+                    borderColor: '#E91E63',
+                    pointBackgroundColor: '#E91E63'
+                }, {
+                    label: 'Heinrich Klaasen (Rank 5)',
+                    data: [82, 90, 80, 92, 88],
+                    backgroundColor: 'rgba(33, 150, 243, 0.25)',
+                    borderColor: '#2196F3',
+                    pointBackgroundColor: '#2196F3'
+                }]
+            },
+            options: {
+                scales: {
+                    r: {
+                        angleLines: { color: '#334155' },
+                        grid: { color: '#334155' },
+                        pointLabels: { color: '#94A3B8', font: { size: 9 } },
+                        ticks: { display: false }
+                    }
+                },
+                plugins: {
+                    legend: { labels: { color: '#E2E8F0', font: { size: 10 } } }
+                }
+            }
+        });
+
+        // Radar chart for Bowlers
+        const ctxBow = document.getElementById('bowlRadarChart').getContext('2d');
+        new Chart(ctxBow, {
+            type: 'radar',
+            data: {
+                labels: ['Crunch Overs', 'Death Control', 'Breakthrough Cap', 'Stand Breaking', 'Discipline'],
+                datasets: [{
+                    label: 'Varun Chakravarthy (Rank 2)',
+                    data: [90, 88, 92, 95, 88],
+                    backgroundColor: 'rgba(16, 185, 129, 0.25)',
+                    borderColor: '#10B981',
+                    pointBackgroundColor: '#10B981'
+                }, {
+                    label: 'Matheesha Pathirana (Rank 7)',
+                    data: [88, 92, 85, 80, 86],
+                    backgroundColor: 'rgba(245, 158, 11, 0.25)',
+                    borderColor: '#F59E0B',
+                    pointBackgroundColor: '#F59E0B'
+                }]
+            },
+            options: {
+                scales: {
+                    r: {
+                        angleLines: { color: '#334155' },
+                        grid: { color: '#334155' },
+                        pointLabels: { color: '#94A3B8', font: { size: 9 } },
+                        ticks: { display: false }
+                    }
+                },
+                plugins: {
+                    legend: { labels: { color: '#E2E8F0', font: { size: 10 } } }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

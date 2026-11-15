@@ -1,0 +1,29 @@
+=== T20 CRICKET PRESSURE PERFORMANCE ANALYSIS v5 ===
+Multi-Gate Cutoffs & 5-Dimension Balanced Scoring
+
+Eligible Batters Passing All 8 Cutoffs: 32
+Eligible Bowlers Passing All 9 Cutoffs: 24
+
+TOP 10 OVERALL BATTERS UNDER PRESSURE:
+1. Tim David              | Role:Lower Order  | Mat:112 | BaseSR:176.8 | DeathSR:199.8 | ChaseSR:182.0 | PressDot:32.0% | MinDim:48.2 | Score:54.8 
+2. Shashank Singh         | Role:Lower Order  | Mat:54  | BaseSR:161.6 | DeathSR:195.4 | ChaseSR:164.2 | PressDot:27.2% | MinDim:40.2 | Score:52.8 
+3. Suryakumar Yadav       | Role:Middle Order | Mat:143 | BaseSR:166.2 | DeathSR:216.3 | ChaseSR:167.8 | PressDot:33.6% | MinDim:39.1 | Score:51.8 
+4. Heinrich Klaasen       | Role:Middle Order | Mat:76  | BaseSR:166.1 | DeathSR:197.2 | ChaseSR:158.2 | PressDot:25.9% | MinDim:36.2 | Score:49.9 
+5. Tristan Stubbs         | Role:Middle Order | Mat:78  | BaseSR:149.6 | DeathSR:196.2 | ChaseSR:144.1 | PressDot:26.8% | MinDim:34.4 | Score:47.6 
+6. Shreyas Iyer           | Role:Middle Order | Mat:101 | BaseSR:152.9 | DeathSR:199.0 | ChaseSR:158.3 | PressDot:28.7% | MinDim:29.1 | Score:46.1 
+7. Dinesh Karthik         | Role:Lower Order  | Mat:68  | BaseSR:166.8 | DeathSR:185.3 | ChaseSR:180.0 | PressDot:31.6% | MinDim:32.6 | Score:45.1 
+8. Rinku Singh            | Role:Lower Order  | Mat:103 | BaseSR:152.2 | DeathSR:191.1 | ChaseSR:155.0 | PressDot:32.4% | MinDim:31.6 | Score:44.1 
+9. Phil Salt              | Role:Top Order    | Mat:87  | BaseSR:168.8 | DeathSR:207.4 | ChaseSR:170.7 | PressDot:33.6% | MinDim:16.2 | Score:43.4 
+10. Naman Dhir            | Role:Middle Order | Mat:51  | BaseSR:168.4 | DeathSR:200.6 | ChaseSR:175.3 | PressDot:29.3% | MinDim:24.2 | Score:42.3 
+
+TOP 10 OVERALL BOWLERS UNDER PRESSURE:
+1. Shaheen Afridi         | Role:PP Specialist        | Mat:48 | Wkts:65  | BaseEcon:7.63  | DeathEcon:7.99  | HLEcon:6.80  | MinDim:47.5 | Score:61.7 
+2. Jasprit Bumrah         | Role:PP Specialist        | Mat:77 | Wkts:92  | BaseEcon:6.87  | DeathEcon:7.19  | HLEcon:7.10  | MinDim:27.2 | Score:58.4 
+3. Taskin Ahmed           | Role:PP Specialist        | Mat:46 | Wkts:69  | BaseEcon:7.63  | DeathEcon:8.47  | HLEcon:7.26  | MinDim:40.3 | Score:57.5 
+4. Varun Chakravarthy     | Role:Middle Overs Specialist | Mat:99 | Wkts:136 | BaseEcon:7.80  | DeathEcon:8.39  | HLEcon:7.30  | MinDim:47.4 | Score:55.9 
+5. Mohammad Nawaz         | Role:Middle Overs Specialist | Mat:54 | Wkts:65  | BaseEcon:7.04  | DeathEcon:5.64  | HLEcon:7.68  | MinDim:24.7 | Score:53.3 
+6. Akeal Hosein           | Role:PP Specialist        | Mat:80 | Wkts:80  | BaseEcon:7.51  | DeathEcon:7.47  | HLEcon:7.21  | MinDim:29.5 | Score:51.6 
+7. Matheesha Pathirana    | Role:Death Specialist     | Mat:55 | Wkts:85  | BaseEcon:7.78  | DeathEcon:8.19  | HLEcon:7.80  | MinDim:45.1 | Score:51.0 
+8. Maheesh Theekshana     | Role:PP Specialist        | Mat:99 | Wkts:96  | BaseEcon:7.56  | DeathEcon:8.02  | HLEcon:7.10  | MinDim:29.3 | Score:46.6 
+9. Noor Ahmad             | Role:Middle Overs Specialist | Mat:70 | Wkts:84  | BaseEcon:7.61  | DeathEcon:7.56  | HLEcon:8.77  | MinDim:35.3 | Score:45.9 
+10. Sunil Narine           | Role:Middle Overs Specialist | Mat:68 | Wkts:66  | BaseEcon:6.75  | DeathEcon:5.94  | HLEcon:8.59  | MinDim:14.1 | Score:45.5 
